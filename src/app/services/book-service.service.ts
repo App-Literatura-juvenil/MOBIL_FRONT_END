@@ -8,4 +8,12 @@ import { environment } from '../../environments/environment';
 export class BookServiceService {
 
   constructor(private http: HttpClient) { }
+
+  public findAllBooks() {
+    return this.http.get(`${environment.urlApi}book`);
+  }
+
+  public findByIdAuthorBooks(idAuthor: number) {
+    return this.http.get(`${environment.urlApi}book/authorBook/${idAuthor}`);
+  }
 }
