@@ -32,7 +32,6 @@
               }
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               {
                 "input": "src/theme/variables.scss"
               },
@@ -99,9 +98,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
-            ],
+            "styles": [],
             "scripts": [],
             "assets": [
               {
@@ -180,7 +177,7 @@
   },
   "cli": {
     "defaultCollection": "@ionic/angular-toolkit",
-    "analytics": "df4df9af-76bb-443b-8911-b91cf71e74af"
+    "analytics": "94418946-04d7-449e-abad-068756f159ac"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
