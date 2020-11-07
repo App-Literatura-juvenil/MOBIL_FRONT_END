@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { OrientacionComponent } from './orientacion/orientacion.component';
 import { LibrosComponent } from './libros/libros.component';
+import {QuizComponent} from './quiz/quiz.component';
 
 
 @NgModule({
@@ -17,6 +18,6 @@ import { LibrosComponent } from './libros/libros.component';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage, PresentacionComponent, OrientacionComponent, LibrosComponent]
+  declarations: [HomePage, PresentacionComponent, OrientacionComponent, LibrosComponent,QuizComponent]
 })
 export class HomePageModule {}

@@ -1,117 +1,15 @@
-
-  <center><ion-app>
-    <ion-content fullscreen>
-       <a href="CartaSelva"><ion-card>
-        <img src="assets/iconos/quiz/libros/Cartas-desde-la-selva-min.png" />
-        <ion-card-header>
-          <ion-card-title>Cartas desde la selva</ion-card-title>
-        </ion-card-header>
-      </ion-card></a>
-
-      <a href="Corazon"><ion-card>
-        <img src="assets/iconos/quiz/libros/corazon.jpg" />
-        <ion-card-header>
-          <ion-card-title>Corazón</ion-card-title>
-        </ion-card-header>
-      </ion-card></a>
-
-      <a href=""><ion-card>
-        <img src="assets/iconos/quiz/libros/De_la_Tierra_a_la_Luna.jpg" />
-        <ion-card-header>
-          <ion-card-title>De la tierra a la Luna</ion-card-title>
-        </ion-card-header>
-      </ion-card></a>
-
-      <a href=""><ion-card>
-        <img src="assets/iconos/quiz/libros/el_hombre_con_la_cicatriz.jpg" />
-        <ion-card-header>
-          <ion-card-title>El hombre de la cicatriz</ion-card-title>
-        </ion-card-header>
-      </ion-card></a>
-
-      <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/el_mundo_perdido.JPG" />
-      <ion-card-header>
-        <ion-card-title>El mundo perdido</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/el_principito.JPG" />
-      <ion-card-header>
-        <ion-card-title>El principito</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/Historia_dos_veces_contada.jpg" />
-      <ion-card-header>
-        <ion-card-title>Historia dos veces contada</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/la_familia_robinson.jpg" />
-      <ion-card-header>
-        <ion-card-title>La familia robinson</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/la_guerra_de_los_mundos.jpg" />
-      <ion-card-header>
-        <ion-card-title>La guerra de los mundos</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/la_isla_del_tesoro.jpg" />
-      <ion-card-header>
-        <ion-card-title>La isla del tesoro</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/la_llamada_salvaje.JPG" />
-      <ion-card-header>
-        <ion-card-title>La llamada de lo salvaje</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/las_indias_negras.jpg" />
-      <ion-card-header>
-        <ion-card-title>Las indias negras</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/robinson_crusoe.jpg" />
-      <ion-card-header>
-        <ion-card-title>Robinson Crusoe</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/tigres_malasia.jpg" />
-      <ion-card-header>
-        <ion-card-title>Tigres de la malasia</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/yanqui.jpg" />
-      <ion-card-header>
-        <ion-card-title>Un Yanqui de connecticut en la corte del rey</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-    <a href=""><ion-card>
-      <img src="assets/iconos/quiz/libros/ciudad_flotante.JPG" />
-      <ion-card-header>
-        <ion-card-title>Una ciudad flotante</ion-card-title>
-      </ion-card-header>
-    </ion-card></a>
-
-  </ion-content>
-  </ion-app></center>
+  <div *ngIf="listBooks.length > 0">
+    <ion-list>
+      <ion-item *ngFor="let book of listBooks">
+          <ion-avatar slot="start">
+              <img src="assets/iconos/v2/libro.jpg">
+          </ion-avatar>
+          <ion-label>
+              <h2>{{book.nameBook}}</h2>
+              <!--<h3>Look, kid...</h3>
+        <p>I've got enough on my plate as it is, and I...</p>-->
+          </ion-label>
+      </ion-item>
+  </ion-list>
+  </div>
+  
