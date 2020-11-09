@@ -9,6 +9,7 @@ import { PresentacionComponent } from './presentacion/presentacion.component';
 import { OrientacionComponent } from './orientacion/orientacion.component';
 import { LibrosComponent } from './libros/libros.component';
 import { AutorComponent } from './autor/autor.component';
+import { ListaAutorComponent } from './lista-autor/lista-autor.component'
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { AutorComponent } from './autor/autor.component';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage, PresentacionComponent, OrientacionComponent, LibrosComponent, AutorComponent]
+  declarations: [HomePage, PresentacionComponent, OrientacionComponent, LibrosComponent, AutorComponent,
+  ListaAutorComponent]
 })
 export class HomePageModule {}

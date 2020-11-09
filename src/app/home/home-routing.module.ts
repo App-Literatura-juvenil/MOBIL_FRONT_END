@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AutorComponent } from './autor/autor.component';
 import { HomePage } from './home.page';
 import { LibrosComponent } from './libros/libros.component';
+import { ListaAutorComponent } from './lista-autor/lista-autor.component';
 import { OrientacionComponent } from './orientacion/orientacion.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 
@@ -12,6 +13,8 @@ const routes: Routes = [
   { path: 'presentacion', component: PresentacionComponent },
   { path: 'libros', component: LibrosComponent},
   { path: 'autores', component: AutorComponent},
+  { path: 'autorLista', component: ListaAutorComponent},
+  { path: 'autorLista/:idAuthor/libros', component: LibrosComponent},
   {
     path: '',
     redirectTo: 'home',
