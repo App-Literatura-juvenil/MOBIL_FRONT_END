@@ -17,7 +17,7 @@ export class LibrosComponent implements OnInit {
   public libro: any;
 
   ngOnInit() {
-    this.findBooks();
+    this.goTolibro();
   }
 
   findBooks() {
@@ -35,15 +35,12 @@ export class LibrosComponent implements OnInit {
   }
   goTolibro(){
     this.route.paramMap.subscribe(params =>{       
-        if (params.has("idAuthor")){
-              console.log(params.get("idAuthor"));
-            this.authorservices.findByIdAuthor(parseInt(params.get("idAuthor"))).subscribe(
-              libro => {this.libro = libro; 
-                                  console.log(this.libro)});
-          
-            }
-         }
-      )
+      if (params.has("idAuthor")){
+        console.log(params.get("idAuthor"));
+        this.idAuthor = params.get("idAuthor");
+        this.findBooks();
+      }
+    });
   }
 
 }
