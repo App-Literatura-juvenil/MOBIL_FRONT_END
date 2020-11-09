@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CapitulosComponent } from './capitulos/capitulos.component';
 import { AutorComponent } from './autor/autor.component';
+import { BiografiaComponent } from './biografia/biografia.component';
 import { HomePage } from './home.page';
 import { LibrosComponent } from './libros/libros.component';
 import { ListaAutorComponent } from './lista-autor/lista-autor.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'autores', component: AutorComponent},
   { path: 'autorLista', component: ListaAutorComponent},
   { path: 'libros/:idAuthor', component: LibrosComponent},
+  { path: 'biografia/:idAuthor', component: BiografiaComponent},
   {
     path: '',
     redirectTo: 'home',
