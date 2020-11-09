@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthorServiceService } from '../../services/author-service.service';
-import { ActivatedRoute, Router, ParamMap } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-autor',
-  templateUrl: './autor.component.html',
-  styleUrls: ['./autor.component.scss'],
+  selector: 'app-lista-autor',
+  templateUrl: './lista-autor.component.html',
+  styleUrls: ['./lista-autor.component.scss'],
 })
-export class AutorComponent implements OnInit {
+export class ListaAutorComponent implements OnInit {
 
   public listAuthors = [];
 
-  constructor(private authorservices: AuthorServiceService,private route:ActivatedRoute,private router:Router) { }
+  constructor(private authorservices: AuthorServiceService,private router:Router) { }
 
   ngOnInit() {
     this.findAuthor();
@@ -19,6 +19,7 @@ export class AutorComponent implements OnInit {
 
   findAuthor(){
     this.authorservices.findAllAuthors().subscribe( (res: any) => {
+      console.log(res);
       this.listAuthors = res.data;
     });
   }
@@ -26,13 +27,8 @@ export class AutorComponent implements OnInit {
   selectItem(author){
    console.log(author);
    let selectedId = parseInt(author.idAuthor)
-   this.router.navigate(["/biografia",selectedId]);
-
+   this.router.navigate(["/libros",selectedId]);
  
   }
 
- }
-
-
-
-
+}
