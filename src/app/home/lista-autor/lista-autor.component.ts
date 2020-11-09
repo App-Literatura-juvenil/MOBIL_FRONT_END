@@ -28,7 +28,6 @@ export class ListaAutorComponent implements OnInit {
    console.log(author);
    let selectedId = parseInt(author.idAuthor)
    this.router.navigate(["/libros",selectedId,]);
-
  
   }
 
