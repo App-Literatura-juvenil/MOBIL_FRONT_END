@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'libros', component: LibrosComponent},
   { path: 'autores', component: AutorComponent},
   { path: 'autorLista', component: ListaAutorComponent},
-  { path: 'autorLista/:idAuthor/libros', component: LibrosComponent},
+  { path: 'libros/:idAuthor', component: LibrosComponent},
   {
     path: '',
     redirectTo: 'home',
