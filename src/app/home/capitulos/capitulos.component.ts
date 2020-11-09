@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { __importDefault } from 'tslib';
+import { ActivatedRoute } from '@angular/router';
 import { ChapterServiceService } from '../../services/chapter-service.service';
 
 @Component({
@@ -9,12 +10,14 @@ import { ChapterServiceService } from '../../services/chapter-service.service';
 })
 export class CapitulosComponent implements OnInit {
 
-  @Input() idBook;
+  @Input() idBook: number;
   public listChapters = [];
-  constructor(private chapterService: ChapterServiceService) { }
+  constructor(private chapterService: ChapterServiceService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.findByIdBookChapter();
+    this.route.paramMap.subscribe(params => {
+      this.findByIdBookChapter();
+    })
   }
 
   findByIdBookChapter() {

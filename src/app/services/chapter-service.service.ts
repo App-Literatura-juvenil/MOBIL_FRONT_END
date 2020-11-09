@@ -10,11 +10,11 @@ export class ChapterServiceService {
     constructor(private http: HttpClient) { }
 
     public findByIdChapter(idChapter: number) {
-        return this.http.get(`${environment.urlApi}chapter/${idChapter}`);
+        return this.http.get(`${environment.urlApiTest}chapter/${idChapter}`);
     }
 
     public findByIdBookChapter(idBook: number){
-        return this.http.get(`${environment.urlApi}chapter/chapterBook/${idBook}`);
+        return this.http.get(`${environment.urlApiTest}chapter/chapterBook/${idBook}`);
     }
 
 }
