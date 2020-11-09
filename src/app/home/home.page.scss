@@ -1,53 +1,15 @@
-#container {
-    text-align: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+ion-card{
+    top: 65px;
+    background-color: #3880ff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    max-width: 500px;
+    max-height: auto;
+    display: inline-block;
 }
 
-#container strong {
-    font-size: 20px;
-    line-height: 26px;
-}
-
-#container p {
-    font-size: 16px;
-    line-height: 22px;
-    color: #8c8c8c;
-    margin: 0;
-}
-
-#container a {
-    text-decoration: none;
-}
-
-table {
-    margin: 5% 20%;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    overflow-x: auto;
-    align-items: center;
-    align-self: center;
-}
-
-div {
-    overflow-x: auto;
-}
-
-td img {
-    width: 200px;
-    height: 150px;
-}
-
-td {
-    font-family: "Constantia", serif;
-    font-size: 50px;
-    color: blue;
-}
-
-img {
-    height: auto;
-    width: auto;
+img{
+    width: 600px;
+    height: 300px;
 }

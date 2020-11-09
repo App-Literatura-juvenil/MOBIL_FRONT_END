@@ -10,16 +10,18 @@ import { OrientacionComponent } from './orientacion/orientacion.component';
 import { LibrosComponent } from './libros/libros.component';
 import { AutorComponent } from './autor/autor.component';
 import { ListaAutorComponent } from './lista-autor/lista-autor.component'
-
+import { BiografiaComponent } from './biografia/biografia.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    HomePageRoutingModule
-  ],
-  declarations: [HomePage, PresentacionComponent, OrientacionComponent, LibrosComponent, AutorComponent,
-  ListaAutorComponent]
+  imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
+  declarations: [
+    HomePage,
+    PresentacionComponent,
+    OrientacionComponent,
+    LibrosComponent,
+    AutorComponent,
+    BiografiaComponent,
+    ListaAutorComponent
+  ]
 })
-export class HomePageModule {}
+export class HomePageModule { }

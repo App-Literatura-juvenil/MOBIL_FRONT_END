@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { __importDefault } from 'tslib';
+import { ChapterServiceService } from '../../services/chapter-service.service';
 
 @Component({
   selector: 'app-capitulos',
@@ -7,8 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CapitulosComponent implements OnInit {
 
-  constructor() { }
+  @Input() idBook;
+  public listChapters = [];
+  constructor(private chapterService: ChapterServiceService) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.findByIdBookChapter();
+  }
 
+  findByIdBookChapter() {
+      if(this.idBook){
+        this.chapterService.findByIdBookChapter(this.idBook).subscribe( (res: any)  => {
+          console.log(res);
+          this.listChapters = res.data;
+        });
+      }
+  }
 }

@@ -1,7 +1,52 @@
+<!--BARRA MENU LATERAL-->
+<ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <a href="../../home"><ion-title>Menu principal</ion-title></a>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <a href=""><ion-item>Libros</ion-item></a>
+        <a href=""><ion-item>Autores</ion-item></a>
+        <a href=""><ion-item>Presentación</ion-item></a>
+        <!--<a href=""><ion-item>Menu Item</ion-item></a>-->
+        <a href=""><ion-item>Configuración</ion-item></a>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+<!--MENU LATERAL DERECHA-->
+<ion-menu side="end" type="push" contentId="main">
+    <ion-header>
+      <ion-toolbar color="danger">
+        <ion-title>End Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item></ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+        <ion-item>Menu Item</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  
+<!-- DISEÑO DEL HEADER-->
 <ion-header [translucent]="true">
-    <ion-toolbar>
-        <ion-title>
-            Kimera App
-        </ion-title>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+          <ion-menu-button auto-hide="false"></ion-menu-button>
+        </ion-buttons>
+        
+        <ion-buttons slot="end">
+          <ion-button>
+            <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+        </ion-button>
+        </ion-buttons>
+        <ion-title>Literatura Juvenil</ion-title>
     </ion-toolbar>
 </ion-header>
