@@ -21,9 +21,7 @@ import { BiografiaComponent } from './biografia/biografia.component';
     LibrosComponent,
     AutorComponent,
     BiografiaComponent,
-  ],
-  declarations: [HomePage, PresentacionComponent, OrientacionComponent, LibrosComponent, AutorComponent,
-  ListaAutorComponent]
-
+    ListaAutorComponent
+  ]
 })
-export class HomePageModule {}
+export class HomePageModule { }
