@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import { QuestionServiceService } from 'src/app/services/question-service.service';
 import { AnswerServiceService} from 'src/app/services/answer-service.service';
 import { ActionSheetController } from '@ionic/angular';
@@ -6,7 +6,7 @@ import {​​​​​ ActivatedRoute }​​​​​ from '@angular/router';
 import { QuizComponent } from 'src/app/home/quiz/quiz.component';
 import ListQuestion2 from 'src/assets/Question/QuestionDB.json';
 import ListAnswer2 from 'src/assets/Question/AnswerDB.json';
-import { Button } from 'protractor';
+import { CalificacionComponent } from 'src/app/home/quiz/calificacion/calificacion.component';
 @Component({
   selector: 'app-preguntas',
   templateUrl: './preguntas.component.html',
@@ -14,7 +14,7 @@ import { Button } from 'protractor';
   providers: [QuizComponent]
 })
 export class PreguntasComponent implements OnInit {
-  
+ 
   @Input() idBook : number;
   @Input() idQuestion : number;
   @Input() itemB: number;
@@ -88,7 +88,7 @@ export class PreguntasComponent implements OnInit {
     //}
    
   //}
-
+  
 
 
 
@@ -101,7 +101,9 @@ export class PreguntasComponent implements OnInit {
         role: '',//destructive
         icon: 'checkmark-outline',
         handler: () => {
-          console.log('Delete clicked');
+          console.log('Click en califica');
+          
+          
           
         }
       }, {
