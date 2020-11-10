@@ -10,7 +10,7 @@ import { OrientacionComponent } from './orientacion/orientacion.component';
 import { LibrosComponent } from './libros/libros.component';
 import {QuizComponent} from './quiz/quiz.component';
 import {PreguntasComponent} from './quiz/preguntas/preguntas/preguntas.component';
-
+import { CalificacionComponent } from './quiz/calificacion/calificacion.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -19,6 +19,7 @@ import {PreguntasComponent} from './quiz/preguntas/preguntas/preguntas.component
     HomePageRoutingModule
   ],
   declarations: [HomePage, PresentacionComponent,
-     OrientacionComponent, LibrosComponent,QuizComponent,PreguntasComponent ]
+     OrientacionComponent, LibrosComponent,
+     QuizComponent, PreguntasComponent, CalificacionComponent ]
 })
 export class HomePageModule {}

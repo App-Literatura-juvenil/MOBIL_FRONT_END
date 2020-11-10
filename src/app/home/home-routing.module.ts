@@ -6,8 +6,8 @@ import { LibrosComponent } from './libros/libros.component';
 import { OrientacionComponent } from './orientacion/orientacion.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { QuizComponent } from './quiz/quiz.component';
-
 import {PreguntasComponent} from './quiz/preguntas/preguntas/preguntas.component';
+import { CalificacionComponent } from './quiz/calificacion/calificacion.component';
 
 const routes: Routes = [
   { path: 'home', component: HomePage },
@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'libros', component: LibrosComponent},
   { path: 'quiz', component: QuizComponent},
   { path: 'pregunta/:idBook', component: PreguntasComponent},
+  { path: 'califica', component: CalificacionComponent},
   {
     path: '',
     redirectTo: 'home',

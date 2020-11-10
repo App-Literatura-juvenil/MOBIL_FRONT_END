@@ -6,6 +6,7 @@ import {​​​​​ ActivatedRoute }​​​​​ from '@angular/router';
 import { QuizComponent } from 'src/app/home/quiz/quiz.component';
 import ListQuestion2 from 'src/assets/Question/QuestionDB.json';
 import ListAnswer2 from 'src/assets/Question/AnswerDB.json';
+import { Button } from 'protractor';
 @Component({
   selector: 'app-preguntas',
   templateUrl: './preguntas.component.html',
@@ -101,6 +102,7 @@ export class PreguntasComponent implements OnInit {
         icon: 'checkmark-outline',
         handler: () => {
           console.log('Delete clicked');
+          
         }
       }, {
         text: 'Limpiar',
@@ -110,13 +112,13 @@ export class PreguntasComponent implements OnInit {
         }
       }, {
         text: 'Cancelar evaluación, y regresar a las evaluaciones',
-        icon: 'caret-forward-circle',
+        icon: 'albums-outline',
         handler: () => {
           console.log('Play clicked');
         }
       }, {
         text: 'Cancelar evaluación, y regresar al menu principal',
-        icon: 'heart',
+        icon: 'book-outline',
         handler: () => {
           console.log('Favorite clicked');
         }
