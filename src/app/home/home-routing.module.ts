@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'presentacion', component: PresentacionComponent },
   { path: 'libros', component: LibrosComponent},
   { path: 'quiz', component: QuizComponent},
-  { path: 'pregunta', component: PreguntasComponent},
+  { path: 'pregunta/:idBook', component: PreguntasComponent},
   {
     path: '',
     redirectTo: 'home',

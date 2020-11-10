@@ -1,28 +1,33 @@
-<br>
+
+<ion-content
+[scrollEvents]="true"
+(ionScrollStart)="logScrollStart()"
+(ionScroll)="logScrolling($event)"
+(ionScrollEnd)="logScrollEnd()">
+  <h1>Main Content</h1>
+
+  <div slot="fixed">
+    <h1>Fixed Content</h1>
+  </div>
+
+
+
 <ion-list>
-    <ion-radio-group value="biff">
-      <ion-list-header>
-        <ion-label>Quien fue primero</ion-label>
+    <ion-radio-group value="biff" *ngFor="let ex of listQuestions" >
+      <ion-list-header *ngIf="idBook==ex.idBook">
+        <ion-label>{{ex.textQuestion}}</ion-label>
       </ion-list-header>
-  
-      <ion-item>
-        <ion-label>El huevo</ion-label>
-        <ion-radio></ion-radio>
+      
+      <div *ngFor="let exr of listAnswers">
+      <ion-item *ngIf="exr.idQuestion==ex.idQuestion">
+        <ion-label>{{exr.textAnswer}}</ion-label>
+        <ion-radio ></ion-radio>
       </ion-item>
-  
-      <ion-item>
-        <ion-label>La gallina</ion-label>
-        <ion-radio></ion-radio>
-      </ion-item>
-  
+      </div>
       
     </ion-radio-group>
   </ion-list>
 
  
-
-
-
   <ion-button (click)="presentActionSheet()"> Calificar</ion-button>
-
-  
+</ion-content>

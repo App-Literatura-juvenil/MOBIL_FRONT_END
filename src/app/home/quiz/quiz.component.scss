@@ -12,3 +12,13 @@ img{
     width: 600px;
     height: 300px;
 }
+
+
+ion-loading {
+  color: green;
+}
+
+/* Works - pass "my-custom-class" in cssClass to increase specificity */
+.my-custom-class {
+  color: green;
+}
