@@ -17,6 +17,7 @@ export class LibrosComponent implements OnInit {
   public libro: any;
 
   ngOnInit() {
+    this.findBooks();
     this.goTolibro();
   }
 
