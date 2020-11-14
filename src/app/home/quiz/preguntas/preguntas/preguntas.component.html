@@ -1,29 +1,61 @@
 
 <ion-content>
-  <h1>Main Content</h1>
 
-  <div slot="fixed">
-    <h1>Fixed Content</h1>
-  </div>
+  
 
+  <div *ngIf="!calificar&&!home&&!quiz">
+    <!--<h1>Main Content</h1>
 
-
-<ion-list>
-    <ion-radio-group value="biff" *ngFor="let ex of listQuestions" >
-      <ion-list-header *ngIf="idBook==ex.idBook">
-        <ion-label><h2><b>{{ex.textQuestion}}</b></h2></ion-label>
-      </ion-list-header>
-      
-      <div *ngFor="let exr of listAnswers">
-      <ion-item *ngIf="exr.idQuestion==ex.idQuestion">
-        <ion-label ><h3>{{exr.textAnswer}}</h3></ion-label>
-        <ion-radio ></ion-radio>
-      </ion-item>
+    <div slot="fixed">
+      <h1>Fixed Content</h1>
+    </div>
+      <ion-list *ngFor="let ex of listQuestions">
+      <div *ngIf="idBook==ex.idBook">
+        <ion-radio-group [(ngModel)]="radioSelected" (ionChange)="valueChanged()" value="{{ex.idQuestion}}">
+          <ion-list-header >
+            <ion-label><h2><b>{{ex.textQuestion}}</b></h2></ion-label>
+          </ion-list-header>
+          
+          <div *ngFor="let exr of listAnswers" >
+          <ion-item  *ngIf="exr.idQuestion==ex.idQuestion" >
+            <ion-label ><h3>{{exr.textAnswer}}</h3></ion-label>
+            <ion-radio slot="start" value="{{exr.idAnswer}}"> </ion-radio>
+          </ion-item>
+          </div>
+          
+        </ion-radio-group>
       </div>
-      
-    </ion-radio-group>
-  </ion-list>
-
- 
-  <ion-button (click)="presentActionSheet()"> Calificar</ion-button>
+      </ion-list>
+    -->
+    <ion-list *ngFor="let pregunta of questionsList">
+      <div *ngIf="idBook==pregunta.idBook">
+        <ion-radio-group [(ngModel)]="respuesta.selectedAnswer" (click)="valueChanged()"><!-- pregunta.selectedAnswer-->
+          <ion-list-header >
+            <ion-label><h2><b>{{pregunta.textQuestion}}</b></h2></ion-label>
+          </ion-list-header>
+          
+          <div *ngFor="let respuesta of pregunta.answers" >
+          <ion-item  >
+            <ion-label ><h3>{{respuesta.textAnswer}}</h3></ion-label>
+            <ion-radio slot="start" value="{{respuesta.idAnswer}}"> </ion-radio>
+          </ion-item>
+          </div>
+          
+        </ion-radio-group>
+      </div>
+      </ion-list>
+  
+  
+   
+    <ion-button (click)="presentActionSheet()"> Calificar</ion-button>
+  </div>
+  <div *ngIf="calificar">
+    <app-calificacion></app-calificacion>
+  </div>
+  <div *ngIf="quiz">
+    <app-quiz></app-quiz>
+  </div>
+  <div *ngIf="home">
+    <app-home></app-home>
+  </div>
 </ion-content>
