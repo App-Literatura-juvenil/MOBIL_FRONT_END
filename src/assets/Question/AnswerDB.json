@@ -1442,7 +1442,7 @@
         "idQuestion":49
     },
     {
-        "idAnswer":180,
+        "idAnswer":181,
         "textAnswer":"Verdadero",
         "isCorrect":0,
         "createdAt":"",
@@ -1450,7 +1450,7 @@
         "idQuestion":49
     },
     {
-        "idAnswer":181,
+        "idAnswer":182,
         "textAnswer":"ciento once",
         "isCorrect":1,
         "createdAt":"",
@@ -1458,7 +1458,7 @@
         "idQuestion":50
     },
     {
-        "idAnswer":182,
+        "idAnswer":183,
         "textAnswer":"ciento trece",
         "isCorrect":0,
         "createdAt":"",
@@ -1466,7 +1466,7 @@
         "idQuestion":50
     },
     {
-        "idAnswer":183,
+        "idAnswer":184,
         "textAnswer":"ciento quince",
         "isCorrect":0,
         "createdAt":"",
@@ -1474,7 +1474,7 @@
         "idQuestion":50
     },
     {
-        "idAnswer":184,
+        "idAnswer":185,
         "textAnswer":"ciento diez",
         "isCorrect":0,
         "createdAt":"",
@@ -1482,7 +1482,7 @@
         "idQuestion":50
     },
     {
-        "idAnswer":185,
+        "idAnswer":186,
         "textAnswer":"ciento doce",
         "isCorrect":0,
         "createdAt":"",
@@ -1490,7 +1490,7 @@
         "idQuestion":50
     },
     {
-        "idAnswer":186,
+        "idAnswer":187,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -1498,7 +1498,7 @@
         "idQuestion":51
     },
     {
-        "idAnswer":187,
+        "idAnswer":188,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -1506,7 +1506,7 @@
         "idQuestion":51
     },
     {
-        "idAnswer":188,
+        "idAnswer":189,
         "textAnswer":"Sobre el rostro de piedra",
         "isCorrect":1,
         "createdAt":"",
@@ -1514,7 +1514,7 @@
         "idQuestion":52
     },
     {
-        "idAnswer":189,
+        "idAnswer":190,
         "textAnswer":"Sobre el bosque",
         "isCorrect":0,
         "createdAt":"",
@@ -1522,7 +1522,7 @@
         "idQuestion":52
     },
     {
-        "idAnswer":190,
+        "idAnswer":191,
         "textAnswer":"Sobre el mar",
         "isCorrect":0,
         "createdAt":"",
@@ -1530,7 +1530,7 @@
         "idQuestion":52
     },
     {
-        "idAnswer":191,
+        "idAnswer":192,
         "textAnswer":"Sobre el rio",
         "isCorrect":0,
         "createdAt":"",
@@ -1538,7 +1538,7 @@
         "idQuestion":52
     },
     {
-        "idAnswer":192,
+        "idAnswer":193,
         "textAnswer":"Sobre el rostro de madera",
         "isCorrect":0,
         "createdAt":"",
@@ -1546,7 +1546,7 @@
         "idQuestion":52
     },
     {
-        "idAnswer":193,
+        "idAnswer":194,
         "textAnswer":"Tosco y corpulento",
         "isCorrect":1,
         "createdAt":"",
@@ -1554,7 +1554,7 @@
         "idQuestion":53
     },
     {
-        "idAnswer":194,
+        "idAnswer":195,
         "textAnswer":"debil y delgado",
         "isCorrect":0,
         "createdAt":"",
@@ -1562,7 +1562,7 @@
         "idQuestion":53
     },
     {
-        "idAnswer":195,
+        "idAnswer":196,
         "textAnswer":"gordo y fuerte",
         "isCorrect":0,
         "createdAt":"",
@@ -1570,7 +1570,7 @@
         "idQuestion":53
     },
     {
-        "idAnswer":196,
+        "idAnswer":197,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -1578,7 +1578,7 @@
         "idQuestion":54
     },
     {
-        "idAnswer":197,
+        "idAnswer":198,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -1586,7 +1586,7 @@
         "idQuestion":54
     },
     {
-        "idAnswer":198,
+        "idAnswer":199,
         "textAnswer":"Tirar las campanas",
         "isCorrect":1,
         "createdAt":"",
@@ -1594,7 +1594,7 @@
         "idQuestion":55
     },
     {
-        "idAnswer":199,
+        "idAnswer":200,
         "textAnswer":"Saludar a la gente",
         "isCorrect":0,
         "createdAt":"",
@@ -1602,7 +1602,7 @@
         "idQuestion":55
     },
     {
-        "idAnswer":200,
+        "idAnswer":201,
         "textAnswer":"Hablar con el párroco",
         "isCorrect":0,
         "createdAt":"",
@@ -1610,7 +1610,7 @@
         "idQuestion":55
     },
     {
-        "idAnswer":201,
+        "idAnswer":202,
         "textAnswer":"Recojer el diezmo",
         "isCorrect":0,
         "createdAt":"",
@@ -1618,7 +1618,7 @@
         "idQuestion":55
     },
     {
-        "idAnswer":202,
+        "idAnswer":203,
         "textAnswer":"Alistar el altar",
         "isCorrect":0,
         "createdAt":"",
@@ -1626,7 +1626,7 @@
         "idQuestion":55
     },
     {
-        "idAnswer":203,
+        "idAnswer":204,
         "textAnswer":"225 millones de kilometros",
         "isCorrect":1,
         "createdAt":"",
@@ -1634,7 +1634,7 @@
         "idQuestion":56
     },
     {
-        "idAnswer":204,
+        "idAnswer":205,
         "textAnswer":"230 millones de kilometros",
         "isCorrect":0,
         "createdAt":"",
@@ -1642,7 +1642,7 @@
         "idQuestion":56
     },
     {
-        "idAnswer":205,
+        "idAnswer":206,
         "textAnswer":"235 millones de kilometros",
         "isCorrect":0,
         "createdAt":"",
@@ -1650,7 +1650,7 @@
         "idQuestion":56
     },
     {
-        "idAnswer":206,
+        "idAnswer":207,
         "textAnswer":"240 millones de kilometros",
         "isCorrect":0,
         "createdAt":"",
@@ -1658,7 +1658,7 @@
         "idQuestion":56
     },
     {
-        "idAnswer":207,
+        "idAnswer":208,
         "textAnswer":"250 millones de kilometros",
         "isCorrect":0,
         "createdAt":"",
@@ -1666,7 +1666,7 @@
         "idQuestion":56
     },
     {
-        "idAnswer":208,
+        "idAnswer":209,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -1674,7 +1674,7 @@
         "idQuestion":57
     },
     {
-        "idAnswer":209,
+        "idAnswer":210,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -1682,7 +1682,7 @@
         "idQuestion":57
     },
     {
-        "idAnswer":210,
+        "idAnswer":211,
         "textAnswer":"Una boca en forma de V",
         "isCorrect":1,
         "createdAt":"",
@@ -1690,7 +1690,7 @@
         "idQuestion":58
     },
     {
-        "idAnswer":211,
+        "idAnswer":212,
         "textAnswer":"Una boca con forma de foca",
         "isCorrect":0,
         "createdAt":"",
@@ -1698,7 +1698,7 @@
         "idQuestion":58
     },
     {
-        "idAnswer":212,
+        "idAnswer":213,
         "textAnswer":"Una boca con forma de castor",
         "isCorrect":0,
         "createdAt":"",
@@ -1706,7 +1706,7 @@
         "idQuestion":58
     },
     {
-        "idAnswer":213,
+        "idAnswer":214,
         "textAnswer":"Una boca con forma de perro",
         "isCorrect":0,
         "createdAt":"",
@@ -1714,7 +1714,7 @@
         "idQuestion":58
     },
     {
-        "idAnswer":214,
+        "idAnswer":215,
         "textAnswer":"Una boca con forma humana",
         "isCorrect":0,
         "createdAt":"",
@@ -1722,7 +1722,7 @@
         "idQuestion":58
     },
     {
-        "idAnswer":215,
+        "idAnswer":216,
         "textAnswer":"Un monton de arena cubierto de maleza",
         "isCorrect":1,
         "createdAt":"",
@@ -1730,7 +1730,7 @@
         "idQuestion":59
     },
     {
-        "idAnswer":216,
+        "idAnswer":217,
         "textAnswer":"A ponerse a cubierto detras de un autobus",
         "isCorrect":0,
         "createdAt":"",
@@ -1738,7 +1738,7 @@
         "idQuestion":59
     },
     {
-        "idAnswer":217,
+        "idAnswer":218,
         "textAnswer":"Al estar en las casas",
         "isCorrect":0,
         "createdAt":"",
@@ -1746,7 +1746,7 @@
         "idQuestion":59
     },
     {
-        "idAnswer":218,
+        "idAnswer":219,
         "textAnswer":"Al estar en un albergue",
         "isCorrect":0,
         "createdAt":"",
@@ -1754,7 +1754,7 @@
         "idQuestion":59
     },
     {
-        "idAnswer":219,
+        "idAnswer":220,
         "textAnswer":"Escuadrones de Marcianos organizandose",
         "isCorrect":1,
         "createdAt":"",
@@ -1762,7 +1762,7 @@
         "idQuestion":60
     },
     {
-        "idAnswer":220,
+        "idAnswer":221,
         "textAnswer":"Soldados perdidos en la batalla",
         "isCorrect":0,
         "createdAt":"",
@@ -1770,7 +1770,7 @@
         "idQuestion":60
     },
     {
-        "idAnswer":221,
+        "idAnswer":222,
         "textAnswer":"Rescate de niños perdidos",
         "isCorrect":0,
         "createdAt":"",
@@ -1778,7 +1778,7 @@
         "idQuestion":60
     },
     {
-        "idAnswer":222,
+        "idAnswer":223,
         "textAnswer":"Naves volando a gran velocidad",
         "isCorrect":0,
         "createdAt":"",
@@ -1786,7 +1786,7 @@
         "idQuestion":60
     },
     {
-        "idAnswer":223,
+        "idAnswer":224,
         "textAnswer":"Huir del humo negro",
         "isCorrect":1,
         "createdAt":"",
@@ -1794,7 +1794,7 @@
         "idQuestion":61
     },
     {
-        "idAnswer":224,
+        "idAnswer":225,
         "textAnswer":"Huir de las peleas",
         "isCorrect":0,
         "createdAt":"",
@@ -1802,7 +1802,7 @@
         "idQuestion":61
     },
     {
-        "idAnswer":225,
+        "idAnswer":226,
         "textAnswer":"Buscar proviciones",
         "isCorrect":0,
         "createdAt":"",
@@ -1810,7 +1810,7 @@
         "idQuestion":61
     },
     {
-        "idAnswer":226,
+        "idAnswer":227,
         "textAnswer":"Encontrar a los seres queridos",
         "isCorrect":0,
         "createdAt":"",
@@ -1818,7 +1818,7 @@
         "idQuestion":61
     },
     {
-        "idAnswer":227,
+        "idAnswer":228,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -1826,7 +1826,7 @@
         "idQuestion":62
     },
     {
-        "idAnswer":228,
+        "idAnswer":229,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -1834,7 +1834,7 @@
         "idQuestion":62
     },
     {
-        "idAnswer":229,
+        "idAnswer":230,
         "textAnswer":"En la carbonera",
         "isCorrect":1,
         "createdAt":"",
@@ -1842,7 +1842,7 @@
         "idQuestion":63
     },
     {
-        "idAnswer":230,
+        "idAnswer":231,
         "textAnswer":"En un puesto de policia",
         "isCorrect":0,
         "createdAt":"",
@@ -1850,7 +1850,7 @@
         "idQuestion":63
     },
     {
-        "idAnswer":231,
+        "idAnswer":232,
         "textAnswer":"En un puesto de bomberos",
         "isCorrect":0,
         "createdAt":"",
@@ -1858,7 +1858,7 @@
         "idQuestion":63
     },
     {
-        "idAnswer":232,
+        "idAnswer":233,
         "textAnswer":"En un hotel destruido",
         "isCorrect":0,
         "createdAt":"",
@@ -1866,7 +1866,7 @@
         "idQuestion":63
     },
     {
-        "idAnswer":233,
+        "idAnswer":234,
         "textAnswer":"Estaba haciendo demaciado ruido",
         "isCorrect":1,
         "createdAt":"",
@@ -1874,7 +1874,7 @@
         "idQuestion":64
     },
     {
-        "idAnswer":234,
+        "idAnswer":235,
         "textAnswer":"Porque el vicario se puso en silencio",
         "isCorrect":0,
         "createdAt":"",
@@ -1882,7 +1882,7 @@
         "idQuestion":64
     },
     {
-        "idAnswer":235,
+        "idAnswer":236,
         "textAnswer":"Para usarlo como señuelo para los marcianos",
         "isCorrect":0,
         "createdAt":"",
@@ -1890,7 +1890,7 @@
         "idQuestion":64
     },
     {
-        "idAnswer":236,
+        "idAnswer":237,
         "textAnswer":"Falso",
         "isCorrect":1,
         "createdAt":"",
@@ -1898,7 +1898,7 @@
         "idQuestion":65
     },
     {
-        "idAnswer":237,
+        "idAnswer":238,
         "textAnswer":"Verdadero",
         "isCorrect":0,
         "createdAt":"",
@@ -1906,7 +1906,7 @@
         "idQuestion":65
     },
     {
-        "idAnswer":238,
+        "idAnswer":239,
         "textAnswer":"Almirante Benbow",
         "isCorrect":1,
         "createdAt":"",
@@ -1914,7 +1914,7 @@
         "idQuestion":66
     },
     {
-        "idAnswer":239,
+        "idAnswer":240,
         "textAnswer":"La casa de la costa",
         "isCorrect":0,
         "createdAt":"",
@@ -1922,7 +1922,7 @@
         "idQuestion":66
     },
     {
-        "idAnswer":240,
+        "idAnswer":241,
         "textAnswer":"El rincón del oceano",
         "isCorrect":0,
         "createdAt":"",
@@ -1930,7 +1930,7 @@
         "idQuestion":66
     },
     {
-        "idAnswer":241,
+        "idAnswer":242,
         "textAnswer":"San Louis",
         "isCorrect":0,
         "createdAt":"",
@@ -1938,7 +1938,7 @@
         "idQuestion":66
     },
     {
-        "idAnswer":242,
+        "idAnswer":243,
         "textAnswer":"Falso",
         "isCorrect":1,
         "createdAt":"",
@@ -1946,7 +1946,7 @@
         "idQuestion":67
     },
     {
-        "idAnswer":243,
+        "idAnswer":244,
         "textAnswer":"Verdadero",
         "isCorrect":0,
         "createdAt":"",
@@ -1954,7 +1954,7 @@
         "idQuestion":67
     },
     {
-        "idAnswer":244,
+        "idAnswer":245,
         "textAnswer":"Un disco negro",
         "isCorrect":1,
         "createdAt":"",
@@ -1962,7 +1962,7 @@
         "idQuestion":68
     },
     {
-        "idAnswer":245,
+        "idAnswer":246,
         "textAnswer":"Una moneda de oro",
         "isCorrect":0,
         "createdAt":"",
@@ -1970,7 +1970,7 @@
         "idQuestion":68
     },
     {
-        "idAnswer":246,
+        "idAnswer":247,
         "textAnswer":"Un mapa viejo",
         "isCorrect":0,
         "createdAt":"",
@@ -1978,7 +1978,7 @@
         "idQuestion":68
     },
     {
-        "idAnswer":247,
+        "idAnswer":248,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -1986,7 +1986,7 @@
         "idQuestion":69
     },
     {
-        "idAnswer":248,
+        "idAnswer":249,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -1994,7 +1994,7 @@
         "idQuestion":69
     },
     {
-        "idAnswer":249,
+        "idAnswer":250,
         "textAnswer":"Comunicación con el grupo de hombres",
         "isCorrect":1,
         "createdAt":"",
@@ -2002,7 +2002,7 @@
         "idQuestion":70
     },
     {
-        "idAnswer":250,
+        "idAnswer":251,
         "textAnswer":"Asustar animales",
         "isCorrect":0,
         "createdAt":"",
@@ -2010,7 +2010,7 @@
         "idQuestion":70
     },
     {
-        "idAnswer":251,
+        "idAnswer":252,
         "textAnswer":"Hacer alagos a una mujer guapa",
         "isCorrect":0,
         "createdAt":"",
@@ -2018,7 +2018,7 @@
         "idQuestion":70
     },
     {
-        "idAnswer":252,
+        "idAnswer":253,
         "textAnswer":"Encontrar un profesional para atender a los clientes",
         "isCorrect":1,
         "createdAt":"",
@@ -2026,7 +2026,7 @@
         "idQuestion":71
     },
     {
-        "idAnswer":253,
+        "idAnswer":254,
         "textAnswer":"Buscar consejos de como buscar el tesoro",
         "isCorrect":0,
         "createdAt":"",
@@ -2034,7 +2034,7 @@
         "idQuestion":71
     },
     {
-        "idAnswer":254,
+        "idAnswer":255,
         "textAnswer":"En arreglar unos asuntos familiares",
         "isCorrect":0,
         "createdAt":"",
@@ -2042,7 +2042,7 @@
         "idQuestion":71
     },
     {
-        "idAnswer":255,
+        "idAnswer":256,
         "textAnswer":"En reunir provisiones para un largo viaje para su travesia",
         "isCorrect":0,
         "createdAt":"",
@@ -2050,7 +2050,7 @@
         "idQuestion":71
     },
     {
-        "idAnswer":256,
+        "idAnswer":257,
         "textAnswer":"En asegurarse de obtener armas para el viaje",
         "isCorrect":0,
         "createdAt":"",
@@ -2058,7 +2058,7 @@
         "idQuestion":71
     },
     {
-        "idAnswer":257,
+        "idAnswer":258,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2066,7 +2066,7 @@
         "idQuestion":72
     },
     {
-        "idAnswer":258,
+        "idAnswer":259,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2074,7 +2074,7 @@
         "idQuestion":72
     },
     {
-        "idAnswer":259,
+        "idAnswer":260,
         "textAnswer":"Cambiaban de lugar las armas y la pólvora",
         "isCorrect":1,
         "createdAt":"",
@@ -2082,7 +2082,7 @@
         "idQuestion":73
     },
     {
-        "idAnswer":260,
+        "idAnswer":261,
         "textAnswer":"Cambiaban de lugar los viveres",
         "isCorrect":0,
         "createdAt":"",
@@ -2090,7 +2090,7 @@
         "idQuestion":73
     },
     {
-        "idAnswer":261,
+        "idAnswer":262,
         "textAnswer":"Cambiaban de lugar la carga",
         "isCorrect":0,
         "createdAt":"",
@@ -2098,7 +2098,7 @@
         "idQuestion":73
     },
     {
-        "idAnswer":262,
+        "idAnswer":263,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2106,7 +2106,7 @@
         "idQuestion":74
     },
     {
-        "idAnswer":263,
+        "idAnswer":264,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2114,7 +2114,7 @@
         "idQuestion":74
     },
     {
-        "idAnswer":264,
+        "idAnswer":265,
         "textAnswer":"900 libras",
         "isCorrect":1,
         "createdAt":"",
@@ -2122,7 +2122,7 @@
         "idQuestion":75
     },
     {
-        "idAnswer":265,
+        "idAnswer":266,
         "textAnswer":"800 libras",
         "isCorrect":0,
         "createdAt":"",
@@ -2130,7 +2130,7 @@
         "idQuestion":75
     },
     {
-        "idAnswer":266,
+        "idAnswer":26,
         "textAnswer":"100 libras",
         "isCorrect":0,
         "createdAt":"",
@@ -2138,7 +2138,7 @@
         "idQuestion":75
     },
     {
-        "idAnswer":267,
+        "idAnswer":268,
         "textAnswer":"700 libras",
         "isCorrect":0,
         "createdAt":"",
@@ -2146,7 +2146,7 @@
         "idQuestion":75
     },
     {
-        "idAnswer":268,
+        "idAnswer":269,
         "textAnswer":"950 libras",
         "isCorrect":0,
         "createdAt":"",
@@ -2154,7 +2154,7 @@
         "idQuestion":75
     },
     {
-        "idAnswer":269,
+        "idAnswer":270,
         "textAnswer":"Color Pardo",
         "isCorrect":1,
         "createdAt":"",
@@ -2162,7 +2162,7 @@
         "idQuestion":76
     },
     {
-        "idAnswer":270,
+        "idAnswer":271,
         "textAnswer":"Color gris",
         "isCorrect":0,
         "createdAt":"",
@@ -2170,7 +2170,7 @@
         "idQuestion":76
     },
     {
-        "idAnswer":271,
+        "idAnswer":272,
         "textAnswer":"Color verde",
         "isCorrect":0,
         "createdAt":"",
@@ -2178,7 +2178,7 @@
         "idQuestion":76
     },
     {
-        "idAnswer":272,
+        "idAnswer":273,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2186,7 +2186,7 @@
         "idQuestion":77
     },
     {
-        "idAnswer":273,
+        "idAnswer":274,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2194,7 +2194,7 @@
         "idQuestion":77
     },
     {
-        "idAnswer":274,
+        "idAnswer":275,
         "textAnswer":"Montañas, playa llanas, riachuelos",
         "isCorrect":1,
         "createdAt":"",
@@ -2202,7 +2202,7 @@
         "idQuestion":78
     },
     {
-        "idAnswer":275,
+        "idAnswer":276,
         "textAnswer":"Volcanes, playas llanas, islas vecinas",
         "isCorrect":0,
         "createdAt":"",
@@ -2210,7 +2210,7 @@
         "idQuestion":78
     },
     {
-        "idAnswer":276,
+        "idAnswer":277,
         "textAnswer":"Islas desiertas, pocas palmeras, playas llanas",
         "isCorrect":0,
         "createdAt":"",
@@ -2218,7 +2218,7 @@
         "idQuestion":78
     },
     {
-        "idAnswer":277,
+        "idAnswer":278,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2226,7 +2226,7 @@
         "idQuestion":79
     },
     {
-        "idAnswer":278,
+        "idAnswer":279,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2234,7 +2234,7 @@
         "idQuestion":79
     },
     {
-        "idAnswer":279,
+        "idAnswer":280,
         "textAnswer":"Un hombre blanco",
         "isCorrect":1,
         "createdAt":"",
@@ -2242,7 +2242,7 @@
         "idQuestion":80
     },
     {
-        "idAnswer":280,
+        "idAnswer":281,
         "textAnswer":"Un hombre nativo",
         "isCorrect":0,
         "createdAt":"",
@@ -2250,7 +2250,7 @@
         "idQuestion":80
     },
     {
-        "idAnswer":281,
+        "idAnswer":282,
         "textAnswer":"Un hombre de color",
         "isCorrect":0,
         "createdAt":"",
@@ -2258,7 +2258,7 @@
         "idQuestion":80
     },
     {
-        "idAnswer":282,
+        "idAnswer":283,
         "textAnswer":"Que Hawkins se fue con los expedicionarios",
         "isCorrect":1,
         "createdAt":"",
@@ -2266,7 +2266,7 @@
         "idQuestion":81
     },
     {
-        "idAnswer":283,
+        "idAnswer":284,
         "textAnswer":"Que Hawkins se fue a descansar en la costa",
         "isCorrect":0,
         "createdAt":"",
@@ -2274,7 +2274,7 @@
         "idQuestion":81
     },
     {
-        "idAnswer":284,
+        "idAnswer":285,
         "textAnswer":"Que Hawkins se fue solo a explorar la isla",
         "isCorrect":0,
         "createdAt":"",
@@ -2282,7 +2282,7 @@
         "idQuestion":81
     },
     {
-        "idAnswer":285,
+        "idAnswer":286,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2290,7 +2290,7 @@
         "idQuestion":82
     },
     {
-        "idAnswer":286,
+        "idAnswer":287,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2298,7 +2298,7 @@
         "idQuestion":82
     },
     {
-        "idAnswer":287,
+        "idAnswer":288,
         "textAnswer":"Para defenderse de los piratas",
         "isCorrect":1,
         "createdAt":"",
@@ -2306,7 +2306,7 @@
         "idQuestion":83
     },
     {
-        "idAnswer":288,
+        "idAnswer":289,
         "textAnswer":"Para defenderse de los animales salvajes",
         "isCorrect":0,
         "createdAt":"",
@@ -2314,7 +2314,7 @@
         "idQuestion":83
     },
     {
-        "idAnswer":289,
+        "idAnswer":290,
         "textAnswer":"Para defenderse de los nativos",
         "isCorrect":0,
         "createdAt":"",
@@ -2322,7 +2322,7 @@
         "idQuestion":83
     },
     {
-        "idAnswer":290,
+        "idAnswer":291,
         "textAnswer":"Para defenderse de la misma tripulación",
         "isCorrect":0,
         "createdAt":"",
@@ -2330,33 +2330,25 @@
         "idQuestion":83
     },
     {
-        "idAnswer":291,
+        "idAnswer":292,
         "textAnswer":"Verdadero",
         "isCorrect":1,
-        "createdAt":"",
-        "updatedAt":"",
-        "idQuestion":84
-    },
-    {
-        "idAnswer":292,
-        "textAnswer":"Falso",
-        "isCorrect":0,
         "createdAt":"",
         "updatedAt":"",
         "idQuestion":84
     },
     {
         "idAnswer":293,
-        "textAnswer":"Verdadero",
-        "isCorrect":1,
+        "textAnswer":"Falso",
+        "isCorrect":0,
         "createdAt":"",
         "updatedAt":"",
-        "idQuestion":85
+        "idQuestion":84
     },
     {
         "idAnswer":294,
-        "textAnswer":"Falso",
-        "isCorrect":0,
+        "textAnswer":"Verdadero",
+        "isCorrect":1,
         "createdAt":"",
         "updatedAt":"",
         "idQuestion":85
@@ -2364,13 +2356,21 @@
     {
         "idAnswer":295,
         "textAnswer":"Falso",
+        "isCorrect":0,
+        "createdAt":"",
+        "updatedAt":"",
+        "idQuestion":85
+    },
+    {
+        "idAnswer":296,
+        "textAnswer":"Falso",
         "isCorrect":1,
         "createdAt":"",
         "updatedAt":"",
         "idQuestion":86
     },
     {
-        "idAnswer":296,
+        "idAnswer":297,
         "textAnswer":"Verdadero",
         "isCorrect":0,
         "createdAt":"",
@@ -2378,7 +2378,7 @@
         "idQuestion":86
     },
     {
-        "idAnswer":297,
+        "idAnswer":298,
         "textAnswer":"intratable y desobediente",
         "isCorrect":1,
         "createdAt":"",
@@ -2386,7 +2386,7 @@
         "idQuestion":87
     },
     {
-        "idAnswer":298,
+        "idAnswer":299,
         "textAnswer":"tratable y obediente",
         "isCorrect":0,
         "createdAt":"",
@@ -2394,7 +2394,7 @@
         "idQuestion":87
     },
     {
-        "idAnswer":299,
+        "idAnswer":300,
         "textAnswer":"tratable y desobediente",
         "isCorrect":0,
         "createdAt":"",
@@ -2402,7 +2402,7 @@
         "idQuestion":87
     },
     {
-        "idAnswer":300,
+        "idAnswer":301,
         "textAnswer":"intratable y a ratos obediente",
         "isCorrect":0,
         "createdAt":"",
@@ -2410,7 +2410,7 @@
         "idQuestion":87
     },
     {
-        "idAnswer":301,
+        "idAnswer":302,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2418,7 +2418,7 @@
         "idQuestion":88
     },
     {
-        "idAnswer":302,
+        "idAnswer":303,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2426,7 +2426,7 @@
         "idQuestion":88
     },
     {
-        "idAnswer":303,
+        "idAnswer":304,
         "textAnswer":"Dos guardianes",
         "isCorrect":1,
         "createdAt":"",
@@ -2434,7 +2434,7 @@
         "idQuestion":89
     },
     {
-        "idAnswer":304,
+        "idAnswer":305,
         "textAnswer":"Dos nativos",
         "isCorrect":0,
         "createdAt":"",
@@ -2442,7 +2442,7 @@
         "idQuestion":89
     },
     {
-        "idAnswer":305,
+        "idAnswer":306,
         "textAnswer":"Dos piratas",
         "isCorrect":0,
         "createdAt":"",
@@ -2450,7 +2450,7 @@
         "idQuestion":89
     },
     {
-        "idAnswer":304,
+        "idAnswer":307,
         "textAnswer":"Dos tripulantes de la Española",
         "isCorrect":0,
         "createdAt":"",
@@ -2458,39 +2458,39 @@
         "idQuestion":89
     },
     {
-        "idAnswer":305,
-        "textAnswer":"Verdadero",
-        "isCorrect":1,
-        "createdAt":"",
-        "updatedAt":"",
-        "idQuestion":90
-    },
-    {
-        "idAnswer":306,
-        "textAnswer":"Falso",
-        "isCorrect":0,
-        "createdAt":"",
-        "updatedAt":"",
-        "idQuestion":90
-    },
-    {
-        "idAnswer":307,
-        "textAnswer":"Verdadero",
-        "isCorrect":1,
-        "createdAt":"",
-        "updatedAt":"",
-        "idQuestion":91
-    },
-    {
         "idAnswer":308,
-        "textAnswer":"Falso",
-        "isCorrect":0,
+        "textAnswer":"Verdadero",
+        "isCorrect":1,
         "createdAt":"",
         "updatedAt":"",
-        "idQuestion":91
+        "idQuestion":90
     },
     {
         "idAnswer":309,
+        "textAnswer":"Falso",
+        "isCorrect":0,
+        "createdAt":"",
+        "updatedAt":"",
+        "idQuestion":90
+    },
+    {
+        "idAnswer":310,
+        "textAnswer":"Verdadero",
+        "isCorrect":1,
+        "createdAt":"",
+        "updatedAt":"",
+        "idQuestion":91
+    },
+    {
+        "idAnswer":311,
+        "textAnswer":"Falso",
+        "isCorrect":0,
+        "createdAt":"",
+        "updatedAt":"",
+        "idQuestion":91
+    },
+    {
+        "idAnswer":312,
         "textAnswer":"a John",
         "isCorrect":1,
         "createdAt":"",
@@ -2498,7 +2498,7 @@
         "idQuestion":92
     },
     {
-        "idAnswer":310,
+        "idAnswer":313,
         "textAnswer":"a Hands",
         "isCorrect":0,
         "createdAt":"",
@@ -2506,7 +2506,7 @@
         "idQuestion":92
     },
     {
-        "idAnswer":311,
+        "idAnswer":314,
         "textAnswer":"a Jorge",
         "isCorrect":0,
         "createdAt":"",
@@ -2514,7 +2514,7 @@
         "idQuestion":92
     },
     {
-        "idAnswer":312,
+        "idAnswer":315,
         "textAnswer":"a Anderson",
         "isCorrect":0,
         "createdAt":"",
@@ -2522,7 +2522,7 @@
         "idQuestion":92
     },
     {
-        "idAnswer":313,
+        "idAnswer":316,
         "textAnswer":"a Hawkins",
         "isCorrect":0,
         "createdAt":"",
@@ -2530,7 +2530,7 @@
         "idQuestion":92
     },
     {
-        "idAnswer":314,
+        "idAnswer":317,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2538,7 +2538,7 @@
         "idQuestion":93
     },
     {
-        "idAnswer":315,
+        "idAnswer":318,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2546,7 +2546,7 @@
         "idQuestion":93
     },
     {
-        "idAnswer":316,
+        "idAnswer":319,
         "textAnswer":"Comer carne",
         "isCorrect":1,
         "createdAt":"",
@@ -2554,7 +2554,7 @@
         "idQuestion":94
     },
     {
-        "idAnswer":317,
+        "idAnswer":320,
         "textAnswer":"Comer vegetales",
         "isCorrect":0,
         "createdAt":"",
@@ -2562,7 +2562,7 @@
         "idQuestion":94
     },
     {
-        "idAnswer":318,
+        "idAnswer":321,
         "textAnswer":"Comer tuberculos",
         "isCorrect":0,
         "createdAt":"",
@@ -2570,7 +2570,7 @@
         "idQuestion":94
     },
     {
-        "idAnswer":319,
+        "idAnswer":322,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2578,7 +2578,7 @@
         "idQuestion":95
     },
     {
-        "idAnswer":320,
+        "idAnswer":323,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2586,7 +2586,7 @@
         "idQuestion":95
     },
     {
-        "idAnswer":321,
+        "idAnswer":324,
         "textAnswer":"a que los salvajes bajasen por el rio",
         "isCorrect":1,
         "createdAt":"",
@@ -2594,7 +2594,7 @@
         "idQuestion":96
     },
     {
-        "idAnswer":322,
+        "idAnswer":325,
         "textAnswer":"a que animales depredadores lo puedan atacar",
         "isCorrect":0,
         "createdAt":"",
@@ -2602,7 +2602,7 @@
         "idQuestion":96
     },
     {
-        "idAnswer":323,
+        "idAnswer":326,
         "textAnswer":"a que se pueda perder en la selva",
         "isCorrect":0,
         "createdAt":"",
@@ -2610,7 +2610,7 @@
         "idQuestion":96
     },
     {
-        "idAnswer":324,
+        "idAnswer":327,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2618,7 +2618,7 @@
         "idQuestion":97
     },
     {
-        "idAnswer":325,
+        "idAnswer":328,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2626,7 +2626,7 @@
         "idQuestion":97
     },
     {
-        "idAnswer":326,
+        "idAnswer":329,
         "textAnswer":"Una jaula",
         "isCorrect":1,
         "createdAt":"",
@@ -2634,7 +2634,7 @@
         "idQuestion":98
     },
     {
-        "idAnswer":327,
+        "idAnswer":330,
         "textAnswer":"Una cama",
         "isCorrect":0,
         "createdAt":"",
@@ -2642,7 +2642,7 @@
         "idQuestion":98
     },
     {
-        "idAnswer":328,
+        "idAnswer":331,
         "textAnswer":"Una cerca",
         "isCorrect":0,
         "createdAt":"",
@@ -2650,7 +2650,7 @@
         "idQuestion":98
     },
     {
-        "idAnswer":329,
+        "idAnswer":332,
         "textAnswer":"Una casa",
         "isCorrect":0,
         "createdAt":"",
@@ -2658,7 +2658,7 @@
         "idQuestion":98
     },
     {
-        "idAnswer":330,
+        "idAnswer":333,
         "textAnswer":"la pólvora",
         "isCorrect":1,
         "createdAt":"",
@@ -2666,7 +2666,7 @@
         "idQuestion":99
     },
     {
-        "idAnswer":331,
+        "idAnswer":334,
         "textAnswer":"la comida",
         "isCorrect":0,
         "createdAt":"",
@@ -2674,7 +2674,7 @@
         "idQuestion":99
     },
     {
-        "idAnswer":332,
+        "idAnswer":335,
         "textAnswer":"el agua potable",
         "isCorrect":0,
         "createdAt":"",
@@ -2682,39 +2682,39 @@
         "idQuestion":99
     },
     {
-        "idAnswer":333,
-        "textAnswer":"Falso",
-        "isCorrect":1,
-        "createdAt":"",
-        "updatedAt":"",
-        "idQuestion":100
-    },
-    {
-        "idAnswer":334,
-        "textAnswer":"Verdadero",
-        "isCorrect":0,
-        "createdAt":"",
-        "updatedAt":"",
-        "idQuestion":100
-    },
-    {
-        "idAnswer":335,
-        "textAnswer":"Verdadero",
-        "isCorrect":1,
-        "createdAt":"",
-        "updatedAt":"",
-        "idQuestion":101
-    },
-    {
         "idAnswer":336,
         "textAnswer":"Falso",
-        "isCorrect":0,
+        "isCorrect":1,
         "createdAt":"",
         "updatedAt":"",
-        "idQuestion":101
+        "idQuestion":100
     },
     {
         "idAnswer":337,
+        "textAnswer":"Verdadero",
+        "isCorrect":0,
+        "createdAt":"",
+        "updatedAt":"",
+        "idQuestion":100
+    },
+    {
+        "idAnswer":338,
+        "textAnswer":"Verdadero",
+        "isCorrect":1,
+        "createdAt":"",
+        "updatedAt":"",
+        "idQuestion":101
+    },
+    {
+        "idAnswer":339,
+        "textAnswer":"Falso",
+        "isCorrect":0,
+        "createdAt":"",
+        "updatedAt":"",
+        "idQuestion":101
+    },
+    {
+        "idAnswer":340,
         "textAnswer":"de comedor y de salón",
         "isCorrect":1,
         "createdAt":"",
@@ -2722,7 +2722,7 @@
         "idQuestion":102
     },
     {
-        "idAnswer":338,
+        "idAnswer":341,
         "textAnswer":"de dormitorio y de salón",
         "isCorrect":0,
         "createdAt":"",
@@ -2730,7 +2730,7 @@
         "idQuestion":102
     },
     {
-        "idAnswer":339,
+        "idAnswer":342,
         "textAnswer":"de dormitorio y de comedor",
         "isCorrect":0,
         "createdAt":"",
@@ -2738,7 +2738,7 @@
         "idQuestion":102
     },
     {
-        "idAnswer":390,
+        "idAnswer":343,
         "textAnswer":"de bodega y de dormitorio",
         "isCorrect":0,
         "createdAt":"",
@@ -2746,7 +2746,7 @@
         "idQuestion":102
     },
     {
-        "idAnswer":391,
+        "idAnswer":344,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2754,7 +2754,7 @@
         "idQuestion":103
     },
     {
-        "idAnswer":392,
+        "idAnswer":345,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2762,7 +2762,7 @@
         "idQuestion":103
     },
     {
-        "idAnswer":393,
+        "idAnswer":346,
         "textAnswer":"vasta",
         "isCorrect":1,
         "createdAt":"",
@@ -2770,7 +2770,7 @@
         "idQuestion":104
     },
     {
-        "idAnswer":394,
+        "idAnswer":347,
         "textAnswer":"seca",
         "isCorrect":0,
         "createdAt":"",
@@ -2778,7 +2778,7 @@
         "idQuestion":104
     },
     {
-        "idAnswer":395,
+        "idAnswer":348,
         "textAnswer":"desierta",
         "isCorrect":0,
         "createdAt":"",
@@ -2786,7 +2786,7 @@
         "idQuestion":104
     },
     {
-        "idAnswer":396,
+        "idAnswer":349,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2794,7 +2794,7 @@
         "idQuestion":105
     },
     {
-        "idAnswer":397,
+        "idAnswer":350,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2802,7 +2802,7 @@
         "idQuestion":105
     },
     {
-        "idAnswer":398,
+        "idAnswer":351,
         "textAnswer":"Falso",
         "isCorrect":1,
         "createdAt":"",
@@ -2810,7 +2810,7 @@
         "idQuestion":106
     },
     {
-        "idAnswer":399,
+        "idAnswer":352,
         "textAnswer":"Verdadero",
         "isCorrect":0,
         "createdAt":"",
@@ -2818,7 +2818,7 @@
         "idQuestion":106
     },
     {
-        "idAnswer":400,
+        "idAnswer":353,
         "textAnswer":"Una ciudad amurallada",
         "isCorrect":1,
         "createdAt":"",
@@ -2826,7 +2826,7 @@
         "idQuestion":107
     },
     {
-        "idAnswer":401,
+        "idAnswer":354,
         "textAnswer":"Un puerto en la costa",
         "isCorrect":0,
         "createdAt":"",
@@ -2834,7 +2834,7 @@
         "idQuestion":107
     },
     {
-        "idAnswer":402,
+        "idAnswer":355,
         "textAnswer":"Un lugar mágico para criaturas desconocidas",
         "isCorrect":0,
         "createdAt":"",
@@ -2842,7 +2842,7 @@
         "idQuestion":107
     },
     {
-        "idAnswer":403,
+        "idAnswer":356,
         "textAnswer":"Un bosque encantado",
         "isCorrect":0,
         "createdAt":"",
@@ -2850,7 +2850,7 @@
         "idQuestion":107
     },
     {
-        "idAnswer":404,
+        "idAnswer":357,
         "textAnswer":"Relatos",
         "isCorrect":1,
         "createdAt":"",
@@ -2858,7 +2858,7 @@
         "idQuestion":108
     },
     {
-        "idAnswer":405,
+        "idAnswer":358,
         "textAnswer":"La mesa redonda",
         "isCorrect":0,
         "createdAt":"",
@@ -2866,7 +2866,7 @@
         "idQuestion":108
     },
     {
-        "idAnswer":406,
+        "idAnswer":359,
         "textAnswer":"Un lugar donde comen",
         "isCorrect":0,
         "createdAt":"",
@@ -2874,7 +2874,7 @@
         "idQuestion":108
     },
     {
-        "idAnswer":407,
+        "idAnswer":360,
         "textAnswer":"Una mesa decorativa",
         "isCorrect":0,
         "createdAt":"",
@@ -2882,7 +2882,7 @@
         "idQuestion":108
     },
     {
-        "idAnswer":408,
+        "idAnswer":361,
         "textAnswer":"Verdadero",
         "isCorrect":1,
         "createdAt":"",
@@ -2890,7 +2890,7 @@
         "idQuestion":109
     },
     {
-        "idAnswer":408,
+        "idAnswer":362,
         "textAnswer":"Falso",
         "isCorrect":0,
         "createdAt":"",
@@ -2898,7 +2898,7 @@
         "idQuestion":109
     },
     {
-        "idAnswer":409,
+        "idAnswer":363,
         "textAnswer":"sereno y desesperado",
         "isCorrect":1,
         "createdAt":"",
@@ -2906,7 +2906,7 @@
         "idQuestion":110
     },
     {
-        "idAnswer":410,
+        "idAnswer":364,
         "textAnswer":"feliz y relajado",
         "isCorrect":0,
         "createdAt":"",
@@ -2914,7 +2914,7 @@
         "idQuestion":110
     },
     {
-        "idAnswer":411,
+        "idAnswer":365,
         "textAnswer":"enérgico y enojado",
         "isCorrect":0,
         "createdAt":"",
@@ -2922,7 +2922,7 @@
         "idQuestion":110
     },
     {
-        "idAnswer":410,
+        "idAnswer":366,
         "textAnswer":"triste y desconsolado",
         "isCorrect":0,
         "createdAt":"",
