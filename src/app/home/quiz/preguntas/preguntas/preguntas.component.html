@@ -29,7 +29,7 @@
     -->
     <ion-list *ngFor="let pregunta of questionsList">
       <div *ngIf="idBook==pregunta.idBook">
-        <ion-radio-group [(ngModel)]="respuesta.selectedAnswer" (click)="valueChanged()"><!-- pregunta.selectedAnswer-->
+        <ion-radio-group ><!-- pregunta.selectedAnswer-->
           <ion-list-header >
             <ion-label><h2><b>{{pregunta.textQuestion}}</b></h2></ion-label>
           </ion-list-header>

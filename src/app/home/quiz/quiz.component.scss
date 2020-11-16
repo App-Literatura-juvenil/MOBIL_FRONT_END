@@ -1,3 +1,9 @@
+ion-app{
+  background-color:rgb(65, 236, 65);
+}
+div{
+  background-color:rgb(65, 236, 65);
+}
 ion-card{
     top: 65px;
     background-color: #3880ff;
@@ -21,4 +27,7 @@ ion-loading {
 /* Works - pass "my-custom-class" in cssClass to increase specificity */
 .my-custom-class {
   color: green;
+}
+body{
+  background-color: lightgreen;
 }
