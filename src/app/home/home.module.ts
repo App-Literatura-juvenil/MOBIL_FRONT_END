@@ -9,7 +9,7 @@ import { PresentacionComponent } from './presentacion/presentacion.component';
 import { OrientacionComponent } from './orientacion/orientacion.component';
 import { LibrosComponent } from './libros/libros.component';
 import { CapitulosComponent } from './capitulos/capitulos.component';
-
+import { ViewCapituloComponent } from '../home/view-capitulo/view-capitulo.component';
 import { AutorComponent } from './autor/autor.component';
 import { ListaAutorComponent } from './lista-autor/lista-autor.component'
 import { BiografiaComponent } from './biografia/biografia.component';
@@ -29,6 +29,7 @@ import { BiografiaComponent } from './biografia/biografia.component';
     LibrosComponent, 
     CapitulosComponent,
     AutorComponent,
+    ViewCapituloComponent,
     BiografiaComponent,
     ListaAutorComponent
 ]

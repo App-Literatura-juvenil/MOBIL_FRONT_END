@@ -18,6 +18,7 @@ const routes: Routes = [
   { path: 'capitulos', component: CapitulosComponent},
   { path: 'capitulos/:idBook', component: CapitulosComponent},
   { path: 'view-capitulo', component: ViewCapituloComponent},
+  { path: 'view-capitulo/:idChapter', component: ViewCapituloComponent},
   { path: 'autores', component: AutorComponent},
   { path: 'autorLista', component: ListaAutorComponent},
   { path: 'libros/:idAuthor', component: LibrosComponent},
