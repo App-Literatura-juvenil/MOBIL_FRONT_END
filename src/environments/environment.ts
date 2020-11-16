@@ -4,6 +4,7 @@
 
 export const environment = {
   urlApi: 'https://kimeraproject.herokuapp.com/',
+  urlApiTest: 'http://localhost:3000/',
   production: false
 };
 

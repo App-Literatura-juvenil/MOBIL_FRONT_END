@@ -26,7 +26,7 @@ export class AutorComponent implements OnInit {
   selectItem(author){
    console.log(author);
    let selectedId = parseInt(author.idAuthor)
-   this.router.navigate(["/autores",selectedId,'biografia']);
+   this.router.navigate(["/biografia",selectedId]);
 
  
   }

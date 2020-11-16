@@ -1,7 +1,27 @@
+<!--BARRA MENU LATERAL-->
+<ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <a href="../../home"><ion-title>Menu principal</ion-title></a>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <a href=""><ion-item>Libros</ion-item></a>
+        <a href=""><ion-item>Autores</ion-item></a>
+        <a href=""><ion-item>Presentación</ion-item></a>
+        <!--<a href=""><ion-item>Menu Item</ion-item></a>-->
+        <a href=""><ion-item>Configuración</ion-item></a>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+
 <ion-header [translucent]="true">
-    <ion-toolbar>
-        <ion-title>
-            Kimera App
-        </ion-title>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+          <ion-menu-button auto-hide="false"></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Literatura Juvenil</ion-title>
     </ion-toolbar>
 </ion-header>
