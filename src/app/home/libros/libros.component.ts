@@ -2,6 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 import { BookServiceService } from '../../services/book-service.service';
 import { ActivatedRoute } from '@angular/router';
 import { AuthorServiceService } from 'src/app/services/author-service.service';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-libros',
   templateUrl: './libros.component.html',
@@ -12,7 +14,7 @@ export class LibrosComponent implements OnInit {
   @Input() idAuthor;
   public listBooks = [];
   constructor(private bookService: BookServiceService, private route: ActivatedRoute,
-  private  authorservices: AuthorServiceService,) { }
+  private  authorservices: AuthorServiceService, private router: Router,) { }
 
   public libro: any;
 
@@ -43,5 +45,12 @@ export class LibrosComponent implements OnInit {
       }
     });
   }
+
+  selectItem(book){
+    console.log(book);
+    let selectedId = parseInt(book.idBook)
+    this.router.navigate(["/capitulos",selectedId]);
+  
+   }
 
 }
