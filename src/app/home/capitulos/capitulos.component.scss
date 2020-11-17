@@ -3,15 +3,25 @@ ion-content{
     text-align: center;
 }
 
-ion-list{
-    display: inline-block;    
+:host{
+    --ion-background-color: rgb(183, 197, 250);
 }
 
-ion-item-option{
-    background-color: white;
+ion-card-tittle{
     color: black;
 }
 
-ion-label{
-    text-transform: none;
+img{
+    width: 300px;
+    height: 300px;
+}
+
+ion-card{
+    background-color: #5598fcfd;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    max-width: auto;
+    max-height: auto;
+    display: inline-flex;
 }

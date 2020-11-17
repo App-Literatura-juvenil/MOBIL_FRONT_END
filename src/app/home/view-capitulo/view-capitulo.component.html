@@ -1,5 +1,6 @@
-<ion-content>
-        <p *ngIf="chapters">
-                {{chapters.chapter.textChapter}}
-            </p>
+<ion-app>
+<ion-content *ngIf="chapters">
+        <h1>{{chapters.chapter.titleChapter}}</h1>
+        <p>{{chapters.chapter.textChapter}}</p>
 </ion-content>
+</ion-app>
