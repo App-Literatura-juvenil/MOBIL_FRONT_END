@@ -32,7 +32,7 @@ import { CalificacionComponent } from './quiz/calificacion/calificacion.componen
     AutorComponent,
     ViewCapituloComponent,
     BiografiaComponent,
-    ListaAutorComponent
+    ListaAutorComponent,
     QuizComponent, 
     PreguntasComponent, 
     CalificacionComponent ]
