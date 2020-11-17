@@ -1,24 +1,25 @@
 <!--BARRA MENU LATERAL-->
 <ion-menu side="start" menuId="first" contentId="main">
     <ion-header>
-      <ion-toolbar color="primary">
-        <a href="../../home"><ion-title>Menu principal</ion-title></a>
+      <ion-toolbar>
+        <a href="home"><ion-title>Menu principal</ion-title></a>
       </ion-toolbar>
     </ion-header>
     <ion-content>
       <ion-list>
-        <a href=""><ion-item>Libros</ion-item></a>
-        <a href=""><ion-item>Autores</ion-item></a>
-        <a href=""><ion-item>Presentación</ion-item></a>
-        <!--<a href=""><ion-item>Menu Item</ion-item></a>-->
+        <a href="libros"><ion-item>Libros</ion-item></a>
+        <a href="autores"><ion-item>Autores</ion-item></a>
+        <a href="presentacion"><ion-item>Presentación</ion-item></a>
+        <a href="quiz"><ion-item>Evaluación</ion-item></a>
+        <a href="orientacion"><ion-item>Orientación</ion-item></a>
         <a href=""><ion-item>Configuración</ion-item></a>
       </ion-list>
     </ion-content>
   </ion-menu>
   
-
+<!--Barra superior header-->
 <ion-header [translucent]="true">
-    <ion-toolbar color="primary">
+    <ion-toolbar>
         <ion-buttons slot="start">
           <ion-menu-button auto-hide="false"></ion-menu-button>
         </ion-buttons>

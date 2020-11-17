@@ -1,18 +1,27 @@
 ion-card{
-    top: 65px;
-    background-color: #3880ff;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    max-width: 500px;
-    max-height: auto;
     display: inline-block;
+    top: 5%;
+    margin-top: 4%;
+    background-color: #585FA6;
+    border-radius: 7%;
 }
+
+ion-card-title{
+    color: #ECF3FF;
+    font-weight: bold;
+}
+
+:host{
+    --ion-background-color: #ECF3FF;
+}
+
 img{
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 220px;
 }
 
 ion-content{
     text-align: center;
+    top: 2%;
+    bottom: 5%;
 }

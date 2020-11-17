@@ -1,12 +1,10 @@
-<ion-content>
-    <div>
-        <ion-card *ngFor="let chapters of listChapters">
-            <span (click)="selectItem(chapters)">
-                <img src="assets/iconos/v2/autor.png">
-                <ion-card-header>
-                    <ion-card-title>{{chapters.titleChapter}}</ion-card-title>
-                </ion-card-header>
-            </span>
-        </ion-card>
-    </div>
+<ion-content fullscreen>
+    <ion-card *ngFor="let chapters of listChapters">
+        <span (click)="selectItem(chapters)">
+            <img src="assets/iconos/v2/libro.png">
+            <ion-card-header>
+                <ion-card-title>{{chapters.titleChapter}}</ion-card-title>
+            </ion-card-header>
+        </span>
+    </ion-card>
 </ion-content>

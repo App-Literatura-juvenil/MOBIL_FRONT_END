@@ -1,12 +1,10 @@
-<ion-content>
-    <div>
+<ion-content fullscreen>
         <ion-card *ngFor="let book of listBooks">
             <span (click)="selectItem(book)">
-                <img src="assets/iconos/v2/libro.jpg">
+                <img src="assets/iconos/v2/libro.png">
                 <ion-card-header>
                     <ion-card-title>{{book.nameBook}}</ion-card-title>
                 </ion-card-header>
             </span>
         </ion-card>
-    </div>
 </ion-content>

@@ -1,16 +1,12 @@
-<ion-content>
-  <div>
+<ion-content fullscreen>
     <ion-card *ngFor="let author of listAuthors" align="center">
       <span (click)="selectItem(author)">
-        <tr slot="start">
-          <td align="center"><img src="assets/iconos/v2/autor.png"></td>
-        </tr>
-        <tr slot="start">
-          <td align="center">{{author.nameAuthor}}</td>
-        </tr>
+        <img src="assets/iconos/v2/autores.png">
+        <ion-card-header>
+          <ion-card-title>{{author.nameAuthor}}</ion-card-title>
+        </ion-card-header>
       </span>
     </ion-card>
-  </div>
 </ion-content>
           
         
