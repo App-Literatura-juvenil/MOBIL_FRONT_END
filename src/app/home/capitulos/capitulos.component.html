@@ -1,14 +1,12 @@
 <ion-content>
-    <ion-list>
-        <ion-item *ngFor="let chapters of listChapters">
-            <ion-item-option (click)="selectItem(chapters)">
-                <ion-avatar slot="start">
-                    <img src="assets/iconos/v2/libro.jpg">
-                </ion-avatar>
-                <ion-label>
-                    <h2>{{chapters.titleChapter}}</h2>
-                </ion-label>
-            </ion-item-option>
-        </ion-item>
-    </ion-list>
+    <div>
+        <ion-card *ngFor="let chapters of listChapters">
+            <span (click)="selectItem(chapters)">
+                <img src="assets/iconos/v2/autor.png">
+                <ion-card-header>
+                    <ion-card-title>{{chapters.titleChapter}}</ion-card-title>
+                </ion-card-header>
+            </span>
+        </ion-card>
+    </div>
 </ion-content>
