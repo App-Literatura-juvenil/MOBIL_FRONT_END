@@ -12,11 +12,12 @@ export class QuizComponent implements OnInit {
  
   public listBooks = [];
   constructor(private bookService: BookServiceService, private router: Router,
-    public loadingController: LoadingController) { }
+    //public loadingController: LoadingController
+    ) { }
   
   ngOnInit() {
     this.findBooks();
-    this.presentLoading()
+    //this.presentLoading()
   }
 
   findBooks() {
@@ -30,30 +31,37 @@ export class QuizComponent implements OnInit {
     console.log(item)
     this.router.navigate(['pregunta',item.idBook]);
   }
-  async presentLoading() {
-    const loading = await this.loadingController.create({
-      cssClass: 'my-custom-class',
-      message: 'Por favor espere...',
-      duration: 1000
-    });
-    await loading.present();
 
-    const { role, data } = await loading.onDidDismiss();
-    console.log('Loading dismissed!');
-  }
 
-  async presentLoadingWithOptions() {
-    const loading = await this.loadingController.create({
-      spinner: null,
-      duration: 5000,
-      message: 'Click the backdrop to dismiss early...',
-      translucent: true,
-      cssClass: 'custom-class custom-loading',
-      backdropDismiss: true
-    });
-    await loading.present();
 
-    const { role, data } = await loading.onDidDismiss();
-    console.log('Loading dismissed with role:', role);
-  }
+
+
+
+  //async presentLoading() {
+    //const loading = await this.loadingController.create({
+      //cssClass: 'my-custom-class',
+      //message: 'Por favor espere...',
+      //duration: 1000
+    //});
+    //await loading.present();
+
+    //const { role, data } = await loading.onDidDismiss();
+    
+    //console.log('Loading dismissed!');
+  //}
+
+  //async presentLoadingWithOptions() {
+    //const loading = await this.loadingController.create({
+      //spinner: null,
+      //duration: 5000,
+      //message: 'Click the backdrop to dismiss early...',
+      //translucent: true,
+      //cssClass: 'custom-class custom-loading',
+      //backdropDismiss: true
+    //});
+    //await loading.present();
+
+    //const { role, data } = await loading.onDidDismiss();
+    //console.log('Loading dismissed with role:', role);
+//  }
 }//fin clase

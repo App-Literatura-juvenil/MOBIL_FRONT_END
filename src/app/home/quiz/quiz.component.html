@@ -1,7 +1,10 @@
 <div *ngIf="listBooks.length > 0">
   <center>
     <ion-app>
+      
       <ion-content fullscreen>
+        
+        <div>
         <ion-card *ngFor="let book of listBooks">
           <span (click)="selectItem(book)">
             
@@ -13,7 +16,10 @@
             </ion-card-header>
           </span>
         </ion-card>
+      </div>
+      
       </ion-content>
+    
     </ion-app>
   </center>
 </div>
