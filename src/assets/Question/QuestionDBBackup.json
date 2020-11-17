@@ -1,0 +1,773 @@
+[
+    {
+        "idQuestion":1,
+        "textQuestion":"¿Que era el tigre?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":3
+    },
+    {
+        "idQuestion":2,
+        "textQuestion":"¿Que gritaban los indios cuando bailaban?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":3
+    },
+    {
+        "idQuestion":3,
+        "textQuestion":"¿Que perdió el cazador?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":3
+    },
+    {
+        "idQuestion":4,
+        "textQuestion":"¿Cual es al víbora más venenosa en Argentina?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":3
+    },
+    {
+        "idQuestion":5,
+        "textQuestion":"¿Existe algún animal que se enfrente a las hormigas carnivoras?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":3
+    },
+    {
+        "idQuestion":6,
+        "textQuestion":"En el relato de Octubre, ¿que día cae?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":4
+    },
+    {
+        "idQuestion":7,
+        "textQuestion":"En octubre, ¿cual maestro le asignaron al narrador?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":4
+    },
+    {
+        "idQuestion":8,
+        "textQuestion":"En diciembre, ¿con quien fue a pasear el domingo?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":4
+    },
+    {
+        "idQuestion":9,
+        "textQuestion":"En diciembre, ¿Que era la hermosa amiga de los niños?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":4
+    },
+    {
+        "idQuestion":10,
+        "textQuestion":"En abril, En el cuartel ¿que sonaban?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":4
+    },
+    {
+        "idQuestion":11,
+        "textQuestion":"Cuando un americano se le mete la idea en la cabeza, otro americano le ayuda a realizarla",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":5
+    },
+    {
+        "idQuestion":12,
+        "textQuestion":"¿a quien acompañaba el presidente cuando daba el comunicado?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":5
+    },
+    {
+        "idQuestion":13,
+        "textQuestion":"Según en la novela de la Luna, ¿cuantas estrellas tiene la via láctea?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":5
+    },
+    {
+        "idQuestion":14,
+        "textQuestion":"(ignorar uno solo de los hechos relativos a su satélite), no estaba permitido a los Yankees:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":5
+    },
+    {
+        "idQuestion":15,
+        "textQuestion":"¿A donde fue enviado el proyectil con las modificaciones?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":5
+    },
+    {
+        "idQuestion":16,
+        "textQuestion":"¿A que hora se despidieron Miguel Ardan, Barbicane, y Nicholl?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":6
+    },
+    {
+        "idQuestion":17,
+        "textQuestion":"Cuando el proyectil estaba en el vacio ¿Diana estaba corriendo despues del evento que la asusto?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":6
+    },
+    {
+        "idQuestion":18,
+        "textQuestion":"El 3 de diciembre, quien lo desperto?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":6
+    },
+    {
+        "idQuestion":19,
+        "textQuestion":"¿En el cristal interior miraban a la luna el 4 de diciembre?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":6
+    },
+    {
+        "idQuestion":20,
+        "textQuestion":"En el salvamento, que construyó Murchison en San Fransisco?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":6
+    },
+    {
+        "idQuestion":21,
+        "textQuestion":"Las indias negras, ¿Son blancas?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":7
+    },
+    {
+        "idQuestion":22,
+        "textQuestion":"Que extraian en las indias",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":7
+    },
+    {
+        "idQuestion":23,
+        "textQuestion":"Que es la Hulla",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":7
+    },
+    {
+        "idQuestion":24,
+        "textQuestion":"En lo primeros años, quien era Harry Ford",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":7
+    },
+    {
+        "idQuestion":25,
+        "textQuestion":"James Starr era el 'cicerone' de los excursionistas",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":7
+    },
+    {
+        "idQuestion":26,
+        "textQuestion":"El narrador, ¿a que ciudad llego el 18 de marzo?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":8
+    },
+    {
+        "idQuestion":27,
+        "textQuestion":"El Capitán Anderson, ¿es quien dirigia la embarcación?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":8
+    },
+    {
+        "idQuestion":28,
+        "textQuestion":"La maquina de la proa, daba una fuerza de:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":8
+    },
+    {
+        "idQuestion":29,
+        "textQuestion":"El nombre de la embarcación es:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":8
+    },
+    {
+        "idQuestion":30,
+        "textQuestion":"Era un restaurante en New York’s Streets",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":8
+    },
+    {
+        "idQuestion":31,
+        "textQuestion":"Cuando habla de: 'Cuando un hombre viaja a un país lejano...' hace referencia de:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":9
+    },
+    {
+        "idQuestion":32,
+        "textQuestion":"Cuando el mundo se conmovió con la historia del oro ártico y el señuelo del Norte se apoderó de los corazones de los hombres",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":9
+    },
+    {
+        "idQuestion":33,
+        "textQuestion":"Que caracterisaba a David Rasmunsen",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":9
+    },
+    {
+        "idQuestion":34,
+        "textQuestion":"Quien era la esposa de David",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":9
+    },
+    {
+        "idQuestion":35,
+        "textQuestion":"Alaska antes de 1867 ¿a quien le pertenecia?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":9
+    },
+    {
+        "idQuestion":36,
+        "textQuestion":"¿Que animales necesitaban los hombres para trabajar?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":10
+    },
+    {
+        "idQuestion":37,
+        "textQuestion":"¿En que clima narra la historia?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":10
+    },
+    {
+        "idQuestion":38,
+        "textQuestion":"Buck vivía en una gran casa del soleado valle de Santa Clara",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":10
+    },
+    {
+        "idQuestion":39,
+        "textQuestion":"Era la manera de pelear de los lobos: atacar y salir disparados",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":10
+    },
+    {
+        "idQuestion":40,
+        "textQuestion":"La sorpresa de Buck, de que habla de los dos perros:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":10
+    },
+    {
+        "idQuestion":41,
+        "textQuestion":"¿Quien era el Padre más falta de tacto sobre la tierra?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":11
+    },
+    {
+        "idQuestion":42,
+        "textQuestion":"Gladys en su descripción ¿es una mujer bella?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":11
+    },
+    {
+        "idQuestion":43,
+        "textQuestion":"¿Que intenciones tiene Ned con Gladys?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":11
+    },
+    {
+        "idQuestion":44,
+        "textQuestion":"Cuando regresó de Enmore Park, ¿como se sentia el profesor?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":11
+    },
+    {
+        "idQuestion":45,
+        "textQuestion":"Dos días despues de la batalla, estuvieron compartiendo las cavernas?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":11
+    },
+    {
+        "idQuestion":46,
+        "textQuestion":"¿Que animal representaba en el dibujo al comienzo, según el narrador?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":12
+    },
+    {
+        "idQuestion":47,
+        "textQuestion":"¿Que le decia la voz al momento de despertar?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":12
+    },
+    {
+        "idQuestion":48,
+        "textQuestion":"¿Que dibujó de forma extraordinaria?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":12
+    },
+    {
+        "idQuestion":49,
+        "textQuestion":"El planeta que vivia de origen, ¿era mas grande que una luna?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":12
+    },
+    {
+        "idQuestion":50,
+        "textQuestion":"¿Cuantos reyes tenia la tierra?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":12
+    },
+    {
+        "idQuestion":51,
+        "textQuestion":"Según la descripción Violet, es tierna, humilde y hermosa",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":13
+    },
+    {
+        "idQuestion":52,
+        "textQuestion":"De ¿que hablaban la madre y el niño pequeño?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":13
+    },
+    {
+        "idQuestion":53,
+        "textQuestion":"Las caracteristicas de Bartram el calero, hacen referencia a un hombre:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":13
+    },
+    {
+        "idQuestion":54,
+        "textQuestion":"¿Gran Bretaña arrogo el derecho de designar gobernantes?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":13
+    },
+    {
+        "idQuestion":55,
+        "textQuestion":"En el inicio de la parabola, el sacristán que acción estaba realizando?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":13
+    },
+    {
+        "idQuestion":56,
+        "textQuestion":"Marte, a ¿que distancia se encuentra del sol?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":14
+    },
+    {
+        "idQuestion":57,
+        "textQuestion":"El telegrama de Ogilvy, resolvió los observatorios de los tres reinos?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":14
+    },
+    {
+        "idQuestion":58,
+        "textQuestion":"Como es la descripción de la boca del marciano segun el narrador?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":14
+    },
+    {
+        "idQuestion":59,
+        "textQuestion":"Un grupo de personas se salvaron gracias a:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":14
+    },
+    {
+        "idQuestion":60,
+        "textQuestion":"El hombre quien estaba escondiendose cerca de la casa, despues de que entraron, ¿que relató?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":14
+    },
+    {
+        "idQuestion":61,
+        "textQuestion":"¿Que estaban haciendo con el Vicario al entrar a una casa en Halliford?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":15
+    },
+    {
+        "idQuestion":62,
+        "textQuestion":"El quinto cilindro estaba caido en la mitad de una casa",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":15
+    },
+    {
+        "idQuestion":63,
+        "textQuestion":"¿Donde estaban refugiados cuando llego la segunda máquina?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":15
+    },
+    {
+        "idQuestion":64,
+        "textQuestion":"¿Porque el protagonista tuvo que matar al Vicario?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":15
+    },
+    {
+        "idQuestion":65,
+        "textQuestion":"Cuando estaba en las calles de St. John´s Wood, ¿estaba cuerdo?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":15
+    },
+    {
+        "idQuestion":66,
+        "textQuestion":"La posada que narran a inicio, se llama:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":16
+    },
+    {
+        "idQuestion":67,
+        "textQuestion":"Cuando narra el mes de enero, la mañana ¿era calida?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":16
+    },
+    {
+        "idQuestion":68,
+        "textQuestion":"¿Que objeto tiene el Doctor cuando hablan de Black Dog?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":16
+    },
+    {
+        "idQuestion":69,
+        "textQuestion":"El nombre del capitán Flint, para los demás era alguien muy conocido",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":16
+    },
+    {
+        "idQuestion":70,
+        "textQuestion":"El silvido que hace referencia?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":16
+    },
+    {
+        "idQuestion":71,
+        "textQuestion":"A ¿que necesitaba ir el Doctor a Londres?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":17
+    },
+    {
+        "idQuestion":72,
+        "textQuestion":"Cuando terminó de almorzar le dieron una carta para John Silver",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":17
+    },
+    {
+        "idQuestion":73,
+        "textQuestion":"¿Que sucedía cuando subieron a cubierta?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":17
+    },
+    {
+        "idQuestion":74,
+        "textQuestion":"El navío se llama la Española",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":17
+    },
+    {
+        "idQuestion":75,
+        "textQuestion":"¿Que cantidad de ahorro necesitaba para la duración del servicio?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":17
+    },
+    {
+        "idQuestion":76,
+        "textQuestion":"El sudeste de la costa baja oriental, ¿que color tenia los bosques?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":18
+    },
+    {
+        "idQuestion":77,
+        "textQuestion":"La Española, vacilaba por las aguas turbias",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":18
+    },
+    {
+        "idQuestion":78,
+        "textQuestion":"La descripción de la isla habla de:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":18
+    },
+    {
+        "idQuestion":79,
+        "textQuestion":"Estaba satisfecho de haber dejado a Silver con un palmo de narices",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":18
+    },
+    {
+        "idQuestion":80,
+        "textQuestion":"La persona con quien se encontro en la isla es:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":18
+    },
+    {
+        "idQuestion":81,
+        "textQuestion":"Hunter que noticia traía",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":19
+    },
+    {
+        "idQuestion":82,
+        "textQuestion":"Hízonos el capitán que aparejásemos el bote compartiendo el peso más proporcionalmente",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":19
+    },
+    {
+        "idQuestion":83,
+        "textQuestion":"La frase '...y hasta requerí el fiador de mi mosquete.', hace referencia dé:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":19
+    },
+    {
+        "idQuestion":84,
+        "textQuestion":"hizo alto inmediatamente, me tomó por el brazo para detenerme y se sentó.",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":19
+    },
+    {
+        "idQuestion":85,
+        "textQuestion":"¡Era cierto! Dos hombres estaban allí, fuera de la estacada",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":19
+    },
+    {
+        "idQuestion":86,
+        "textQuestion":"De ocho personas que habían caído durante la batalla, sólo cuatro respiraban aún",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":20
+    },
+    {
+        "idQuestion":87,
+        "textQuestion":"El Bote de Ben Gunn, que comportamiento tenia al momento de navegar:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":20
+    },
+    {
+        "idQuestion":88,
+        "textQuestion":"Como queriendo reunirse para arrastrarse juntos sobre una misma meseta de rocas,",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":20
+    },
+    {
+        "idQuestion":89,
+        "textQuestion":"Cuando la embarcación se estaba deteriorando, ante el protagonista ¿quien se les aparecio?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":20
+    },
+    {
+        "idQuestion":90,
+        "textQuestion":"El viento, que parecía servirnos al pensamiento, cambió al oeste.",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":20
+    },
+    {
+        "idQuestion":91,
+        "textQuestion":"La claridad rojiza de la antorcha iluminando el interior de la cabaña",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":21
+    },
+    {
+        "idQuestion":92,
+        "textQuestion":"A quien se dirigia el señor Morgan cuando decia 'Pero, hábleles a los demás también, no a mí solamente.':",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":21
+    },
+    {
+        "idQuestion":93,
+        "textQuestion":"Una voz clara y alegre que sonaba a la orilla del bosque llamando a los del reducto me despertó,",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":21
+    },
+    {
+        "idQuestion":94,
+        "textQuestion":"Que hacian en la hogera en la playa?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":21
+    },
+    {
+        "idQuestion":95,
+        "textQuestion":"Se diría que un rayo había herido a todos aquellos hombres.",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":21
+    },
+    {
+        "idQuestion":96,
+        "textQuestion":"Cuando el protagonista habla de no atreverse alejar en chalupa hace referencia a:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":22
+    },
+    {
+        "idQuestion":97,
+        "textQuestion":"Se puso a llover y, poco después, un relámpago surcó el espacio",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":22
+    },
+    {
+        "idQuestion":98,
+        "textQuestion":"¿Que estaba construyendo para el papagayo el protagonista?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":22
+    },
+    {
+        "idQuestion":99,
+        "textQuestion":"Cuando estuvo varios días en la cueva sin salir, ¿que empezó a escasear?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":22
+    },
+    {
+        "idQuestion":100,
+        "textQuestion":"di con tres gruesos talegos, que contenían unas mil cien piezas de monedas de a diez",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":22
+    },
+    {
+        "idQuestion":101,
+        "textQuestion":"Aun cuando ya tenía edad (cincuenta años), era todavía un hombre arrogante",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":23
+    },
+    {
+        "idQuestion":102,
+        "textQuestion":"¿Que funciones hacia la sala central?",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":23
+    },
+    {
+        "idQuestion":103,
+        "textQuestion":"En un abrir y cerrar de ojos fue levada el ancla y el “Mariana”, que tenía el viento de bolina, viró con rapidez de bordo dejándose llevar por la corriente",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":23
+    },
+    {
+        "idQuestion":104,
+        "textQuestion":"En el capitulo El kampong, cuando atravesaban el riachuelo, la llanura en ese entonces era:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":23
+    },
+    {
+        "idQuestion":105,
+        "textQuestion":"Las hordas de los dayakos desembocaban en aquel momento en la floresta",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":23
+    },
+    {
+        "idQuestion":106,
+        "textQuestion":"Narra las aventuras de un ingles de Inglaterra con el Rey Arturo",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":24
+    },
+    {
+        "idQuestion":107,
+        "textQuestion":"Cuando hablan de Camelot, hacen referencia a:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":24
+    },
+    {
+        "idQuestion":108,
+        "textQuestion":"Cuando hablan de la Tabla redonda, hacen referencia de:",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":24
+    },
+    {
+        "idQuestion":109,
+        "textQuestion":"Volvamos ahora a sir Marhaus, el que se marchó con su caballo hacia el sur llevando a la grupa a la damisela de treinta inviernos",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":24
+    },
+    {
+        "idQuestion":110,
+        "textQuestion":"Como se sentia el yanqui, cuando el Rey estaba hablando, ignorando el peligro en el que se encontraba.",
+        "createdAt":"",
+        "updatedAt":"",
+        "idBook":24
+    }
+
+]
