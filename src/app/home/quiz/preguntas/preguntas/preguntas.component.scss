@@ -1,22 +1,22 @@
 
-/* DOES NOT WORK - not specific enough */
-
-
 .action-sheet-group {
     background: #e5e5e5;
-  }
-  
-  /* Works - pass "my-custom-class" in cssClass to increase specificity */
-  .my-custom-class .action-sheet-group {
-    background: #e5e5e5;
-  }
+}
 
-  h2{
+.my-custom-class .action-sheet-group {
+    background: #e5e5e5;
+}
+
+h2{
     text-align: center;
     size: 20%;
-  }
-  h3{
+}
+
+h3{
     text-align: left;
-    //justify-content: space-around;
     size: 10%;
-  }
+}
+
+ion-content{
+  top: 8%;
+}

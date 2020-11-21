@@ -29,13 +29,9 @@ export class CalificacionComponent implements OnInit {
 
   findBooks() {
     this.bookService.findAllBooks().subscribe( (res: any) => {
-        //console.log(res);
         this.listBooks = res.data;
         console.log(" del servicio");
-        //console.log(this.listBooks);
-        //console.log(this.idBook+" id del libro");
         for(let list of this.listBooks){
-          //console.log(list.nameBook);
           if(list.idBook==this.idBook){
             console.log("entra for");
             this.nameBuk=list.nameBook;

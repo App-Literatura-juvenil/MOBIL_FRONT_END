@@ -12,10 +12,12 @@ import { Question } from '../home/models/question.model';
 export class QuestionServiceService{
     constructor(private http: HttpClient){}
         
-    public findByIdBookQuestion(idBook:Number){
-
-      //return this.http.get(`${environment.urlApi}questionBook/${idBook}`);
+    public findByIdBookQuestionsAnswer(idBook:Number){
+      //return this.http.get(`${environment.urlApi}questionAnswer/${idBook}`);
       return of(<Question[]>ListQuestionBook1);
+    }
+    public findByIdBookQuestions(idBook:Number){
+      return this.http.get(`${environment.urlApi}questionBook/${idBook}`);
     }
 
 }
