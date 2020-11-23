@@ -1,4 +1,11 @@
 <ion-content fullscreen *ngIf="chapters">
         <h1>{{chapters.chapter.titleChapter}}</h1>
-        <p>{{chapters.chapter.textChapter}}</p>
+        <div [innerHtml]="chapters.chapter.textChapter"></div>
+
+        <ion-fab vertical="top" horizontal="end" slot="fixed">
+                <ion-fab-button (click)="Onclick1()" type="button" id="hablar" color="light">
+                        <ion-icon md="caret-forward" ios="chevron-forward-circle-outline"></ion-icon>
+                </ion-fab-button>
+        </ion-fab>
+
 </ion-content>

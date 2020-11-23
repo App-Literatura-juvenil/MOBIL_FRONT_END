@@ -1,26 +1,14 @@
-<div *ngIf="listBooks.length > 0">
-  <center>
-    <ion-app>
-      
-      <ion-content fullscreen>
-        
-        <div>
-        <ion-card *ngFor="let book of listBooks">
-          <span (click)="selectItem(book)">
-            
-            <img src="assets/iconos/v2/libro.jpg" />
-            <ion-card-header>
-              <ion-card-title>
-                <h2>{{book.nameBook}}</h2>
-              </ion-card-title>
-            </ion-card-header>
-          </span>
-        </ion-card>
-      </div>
-      
-      </ion-content>
-    
-    </ion-app>
-  </center>
-</div>
+<ion-content fullscreen>
+  <ion-card *ngFor="let book of listBooks">
+    <span (click)="selectItem(book)">  
+      <img src="assets/iconos/v2/libro.png" />
+      <ion-card-header>
+        <ion-card-title>
+          <h2>{{book.nameBook}}</h2>
+        </ion-card-title>
+      </ion-card-header>
+    </span>
+  </ion-card>
+</ion-content>
+
 <a href="home" text-align="center"><ion-button> Menu Principal</ion-button></a>

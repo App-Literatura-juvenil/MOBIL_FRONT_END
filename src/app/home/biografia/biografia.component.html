@@ -3,12 +3,5 @@
   <br><br><br>
   <h1>{{biografia.author.nameAuthor}}</h1>
   <br><br>
-    <p>
-      {{biografia.author.biography}}
-    </p>
-    <a href="autores">
-      <center><img id="imagen2" src="assets/iconos/v2/atras.png"></center>
-      <br><br><br><br>
-  </a>
-
+      <div [innerHtml]="biografia.author.biography"></div>
 </ion-content>
