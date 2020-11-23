@@ -13,7 +13,7 @@ import { AutorComponent } from './autor/autor.component';
 import { ListaAutorComponent } from './lista-autor/lista-autor.component'
 import { BiografiaComponent } from './biografia/biografia.component';
 import { QuizComponent } from './quiz/quiz.component';
-import {PreguntasComponent} from './quiz/preguntas/preguntas/preguntas.component';
+import { PreguntasComponent } from './quiz/preguntas/preguntas/preguntas.component';
 import { CalificacionComponent } from './quiz/calificacion/calificacion.component';
 
 @NgModule({

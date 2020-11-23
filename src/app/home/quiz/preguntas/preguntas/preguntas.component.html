@@ -1,54 +1,35 @@
-
 <ion-content>
-<div><h1></h1></div>
-  
 
-  <div *ngIf="!calificar&&!home&&!quiz">
-    <!--<h1>Main Content</h1>
+<!--LISTADO DE PREGUNTAS-->
+  <ion-card *ngFor="let pregunta of questionsList">
+    <div *ngIf="idBook==pregunta.idBook" id="carta">
 
-    <div slot="fixed">
-      <h1>Fixed Content</h1>
+<!--"LISTADO" DE PREGUNTAS (TITULOS)-->
+      <ion-card-header>
+        <ion-card-title>{{pregunta.textQuestion}}</ion-card-title>
+      </ion-card-header>
+     
+<!--LISTADO DE RESPUESTAS-->
+
+
+      <ion-radio-group (ionChange)="valueChanged($event)">
+        <div *ngFor="let respuestas of pregunta.answers">
+          <ion-card-content>
+            <ion-item>
+              <ion-label><h3>{{respuestas.textAnswer}}</h3></ion-label>
+              <ion-radio slot="start" value="{{respuestas.idAnswer}}"> </ion-radio>
+            </ion-item>
+        </ion-card-content>
+        </div>
+        <ion-button (click)="presentActionSheet()"> Calificar</ion-button>
+      </ion-radio-group>
     </div>
-      <ion-list *ngFor="let ex of listQuestions">
-      <div *ngIf="idBook==ex.idBook">
-        <ion-radio-group [(ngModel)]="radioSelected" (ionChange)="valueChanged()" value="{{ex.idQuestion}}">
-          <ion-list-header >
-            <ion-label><h2><b>{{ex.textQuestion}}</b></h2></ion-label>
-          </ion-list-header>
-          
-          <div *ngFor="let exr of listAnswers" >
-          <ion-item  *ngIf="exr.idQuestion==ex.idQuestion" >
-            <ion-label ><h3>{{exr.textAnswer}}</h3></ion-label>
-            <ion-radio slot="start" value="{{exr.idAnswer}}"> </ion-radio>
-          </ion-item>
-          </div>
-          
-        </ion-radio-group>
-      </div>
-      </ion-list>
-    -->
-    <ion-list *ngFor="let pregunta of questionsList">
-      <div *ngIf="idBook==pregunta.idBook">
-        <ion-radio-group (ionChange)="valueChanged($event)">
-          <ion-list-header >
-            <ion-label><h2><b>{{pregunta.textQuestion}}</b></h2></ion-label>
-          </ion-list-header>
-          
-          <div *ngFor="let respuesta of pregunta.answers" >
-          <ion-item  >
-            <ion-label ><h3>{{respuesta.textAnswer}}</h3></ion-label>
-            <ion-radio slot="start" value="{{respuesta.idAnswer}}"> </ion-radio>
-          </ion-item>
-          </div>
-          
-        </ion-radio-group>
-      </div>
-      </ion-list>
-  
-  
-   
-    <ion-button (click)="presentActionSheet()"> Calificar</ion-button>
-  </div>
+      
+      
+      
+      </ion-card>
+
+
   <div *ngIf="calificar">
     <app-calificacion [conteoHijo]="conteo2" [idBook]="idBook"></app-calificacion>
   </div>
