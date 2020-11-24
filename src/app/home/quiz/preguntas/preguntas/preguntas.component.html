@@ -1,27 +1,32 @@
 <ion-content>
 
-<!--LISTADO DE PREGUNTAS-->
-  <ion-card *ngFor="let question of questionsList">
-    <div *ngIf="idBook==question.idBook" id="carta">
-    <!--"LISTADO" DE PREGUNTAS (TITULOS)-->
-      <ion-card-header>
-        <ion-card-title>{{question.textQuestion}}</ion-card-title>
-      </ion-card-header>     
-      <!--LISTADO DE RESPUESTAS-->
-      <ion-radio-group (ionChange)="valueChanged($event)">
-        <div *ngFor="let answer of answerList">
-          <ion-card-content>
-            <ion-item>
-              <ion-label><h3>{{answer.textAnswer}}</h3></ion-label>
-              <ion-radio slot="start" value="{{answer.idAnswer}}"> </ion-radio>
-            </ion-item>
-        </ion-card-content>
-        </div>
-        <ion-button (click)="presentActionSheet()"> Terminar Evaluacion</ion-button>
-      </ion-radio-group>
-    </div>
-      </ion-card>
+  <!--LISTADO DE PREGUNTAS-->
+  <div *ngIf="!calificar">
+    <ion-card *ngFor="let question of answerList">
+      <div id="carta">
+        <!--"LISTADO" DE PREGUNTAS (TITULOS)-->
+        <ion-card-header>
+          <ion-card-title>{{question.textQuestion}}</ion-card-title>
+        </ion-card-header>
+        <!--LISTADO DE RESPUESTAS-->
+        <ion-radio-group (ionChange)="valueChanged($event)">
+          <div *ngFor="let answer of question.listAnswers">
+            <ion-card-content>
+              <ion-item>
+                <ion-label>
+                  <div [innerHtml]="answer.textAnswer"></div>
+                </ion-label>
+                <ion-radio slot="start" value="{{answer.idAnswer}}"> </ion-radio>
+              </ion-item>
+            </ion-card-content>
+          </div>
+        </ion-radio-group>
+      </div>
+    </ion-card>
+    <ion-button (click)="presentActionSheet()"> Terminar Evaluacion</ion-button>
+  </div>
 
+  
   <div *ngIf="calificar">
     <app-calificacion [conteoHijo]="conteo2" [idBook]="idBook"></app-calificacion>
   </div>

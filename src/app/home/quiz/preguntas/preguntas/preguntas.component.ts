@@ -1,7 +1,7 @@
-import { Component, OnInit, Input} from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { QuestionServiceService } from 'src/app/services/question-service.service';
 import { ActionSheetController } from '@ionic/angular';
-import {​​​​​ ActivatedRoute }​​​​​ from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { QuizComponent } from 'src/app/home/quiz/quiz.component';
 import { AnswerServiceService } from '../../../../services/answer-service.service';
 
@@ -13,74 +13,80 @@ import { AnswerServiceService } from '../../../../services/answer-service.servic
   providers: [QuizComponent]
 })
 export class PreguntasComponent implements OnInit {
- 
-  @Input() idBook : number;
-  @Input() idQuestion : number;
+
+  @Input() idBook: number;
+  @Input() idQuestion: number;
   cal = [];
   calificar = false;
   home = false;
-  quiz= false;
-  selectedAnswer = [] ;
-  selecRes :any= [];
+  quiz = false;
+  selectedAnswer = [];
+  selecRes: any = [];
   questionsList: any = [];
-  answerList : any = [];
+  answerList: any = [];
   listQuestion: any = [];
   listAnswer: any = [];
   public varMap = new Map();
-  conteo:number = 0;
-  public conteo2:number = 0;
+  conteo: number = 0;
+  public conteo2: number = 0;
 
-  constructor(public actionSheetController: ActionSheetController, 
-    private Route:ActivatedRoute,
-    private questionService: QuestionServiceService, 
-    private answerService: AnswerServiceService ) {}
-       
+  constructor(public actionSheetController: ActionSheetController,
+    private Route: ActivatedRoute,
+    private questionService: QuestionServiceService,
+    private answerService: AnswerServiceService) { }
+
   ngOnInit() {
     this.generarQuiz();
   }
 
-  generarQuiz(){
-    this.Route.paramMap.subscribe(params=>{​​​​​
+  generarQuiz() {
+    this.Route.paramMap.subscribe(params => {
 
       this.idBook = Number(params.get('idBook'));
 
       this.questionService.findByIdBookQuestions(this.idBook).subscribe(
-        (questions)=>{
+        (questions) => {
           this.questionsList = questions;
         }
       );
-      this.answerService.findByIdQuestionAnswer(this.idQuestion).subscribe(
-        (answers)=>{
-          this.answerList = answers;
+      this.answerService.findByIdQuestionAnswer(this.idBook).subscribe(
+        (answers: any) => {
+          this.answerList = answers.data;
+          console.log(answers.data)
         }
       );
-    }​​​​​);
+    });
   }
-  
-  valueChanged(event){
-    this.selectedAnswer= event.target.value;
-    if(this.varMap!=null){
+
+  valueChanged(event) {
+    this.selectedAnswer = event.target.value;
+    console.log(this.answerList)
+    console.log(event.target.value)
+    if (this.varMap != null) {
       console.log("Entra");
-      for(let cargaPreguntas of this.answerList){
-          if(cargaPreguntas.idAnswer== event.target.value){
-          this.varMap.set(cargaPreguntas.idQuestion,cargaPreguntas.isCorrect);
+      for(let item of this.answerList){
+        for (let cargaPreguntas of item.listAnswers) {
+          if (cargaPreguntas.idAnswer == event.target.value) {
+            this.varMap.set(item.idQuestion, cargaPreguntas.isCorrect);
+          }
         }
       }
+
     }
-    console.log(this.varMap.size +" tamaño");
+    console.log(this.varMap.size + " tamaño");
 
   }
-  
+
   async presentActionSheet() {
-    for(let keys of this.varMap.keys()){
-      this.conteo=this.varMap.get(keys);
-      if(this.conteo==1){
-        this.conteo2=this.conteo2+1;
+    for (let keys of this.varMap.keys()) {
+      this.conteo = this.varMap.get(keys);
+      if (this.conteo == 1) {
+        this.conteo2 = this.conteo2 + 1;
       }
     }
-    console.log(this.conteo2+"suma de respuestas correctas");
+    console.log(this.conteo2 + "suma de respuestas correctas");
 
-    for(let mues of this.selecRes){
+    for (let mues of this.selecRes) {
       console.log(mues);
     }
 
@@ -109,20 +115,18 @@ export class PreguntasComponent implements OnInit {
         icon: 'book-outline',
         handler: () => {
           console.log('Favorite clicked');
-          this.home=true;
+          this.home = true;
         }
       }, {
         text: 'Cancel',
         icon: 'close',
         role: 'cancel',
         handler: () => {
-          this.conteo2=0;
+          this.conteo2 = 0;
           console.log('Cancel clicked');
         }
       }]
     });
     await actionSheet.present();
   }
-
-
 }

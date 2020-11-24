@@ -10,6 +10,6 @@ export class AnswerServiceService{
     constructor(private http: HttpClient){}
         
     public findByIdQuestionAnswer(idQuestion:Number){
-        return this.http.get(`${environment.urlApi}answerQuestion/${idQuestion}`);
+        return this.http.get(`${environment.urlApi}question/questionsAnswer/${idQuestion}`);
     }
 }

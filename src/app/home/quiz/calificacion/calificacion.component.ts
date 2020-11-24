@@ -23,6 +23,7 @@ export class CalificacionComponent implements OnInit {
   constructor(private bookService: BookServiceService) { }
   
   ngOnInit() {
+    console.log(this.conteoHijo)
     this.findBooks();
     
   }

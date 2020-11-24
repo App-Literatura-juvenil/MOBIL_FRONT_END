@@ -1,7 +1,7 @@
 <ion-content fullscreen>
     <ion-card *ngFor="let author of listAuthors" align="center">
       <span (click)="selectItem(author)">
-        <img src="assets/iconos/v2/autor.png">
+        <img [src]="'assets/iconos/v2/autor.png'">
         <ion-card-header>
           <ion-card-title>{{author.nameAuthor}}</ion-card-title>
         </ion-card-header>

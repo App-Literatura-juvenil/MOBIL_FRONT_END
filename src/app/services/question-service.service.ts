@@ -17,7 +17,7 @@ export class QuestionServiceService{
       return of(<Question[]>ListQuestionBook1);
     }
     public findByIdBookQuestions(idBook:Number){
-      return this.http.get(`${environment.urlApi}questionBook/${idBook}`);
+      return this.http.get(`${environment.urlApi}question/questionBook/${idBook}`);
     }
 
 }
