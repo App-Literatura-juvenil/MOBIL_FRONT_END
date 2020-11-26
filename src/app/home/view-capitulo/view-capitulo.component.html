@@ -9,27 +9,13 @@
         </ion-fab-button>
         </ion-fab>
 
-        <!--BOTONES-->
-<!--
-        <ion-fab horizontal="start" id="back" vertical="bottom" slot="fixed">
-                <ion-fab-button href="home" type="button" color="tertiary">
-                        <ion-icon name="arrow-back"></ion-icon>
-                </ion-fab-button>
-        </ion-fab>
-
-                <ion-toolbar horizontal="start" id="back" vertical="bottom" >
-                <ion-buttons slot="start">
-                        <ion-back-button defaultHref="/" name="arrow-back" color="light"></ion-back-button>
-                </ion-buttons>
-        </ion-toolbar>
--->
 
         <div id="ne">
-        <ion-fab-button vertical="top" horizontal="end" href="capitulos" type="button" color="tertiary">
+        <ion-fab-button (click)="backCap()" vertical="top" horizontal="end" type="button" color="tertiary">
                 <ion-icon name="arrow-back"></ion-icon>
         </ion-fab-button>
 
-        <ion-fab-button href="capitulos" type="button" color="tertiary">
+        <ion-fab-button (click)="nextCap()" type="button" color="tertiary">
                 <ion-icon name="arrow-forward"></ion-icon>
         </ion-fab-button></div>
         <br><br><br><br>

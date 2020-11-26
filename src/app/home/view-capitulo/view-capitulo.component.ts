@@ -16,7 +16,10 @@ export class ViewCapituloComponent implements OnInit {
     private capService: ChapterServiceService
     ) { }
     
+   
     public chapters: any;
+    public chapter: any;
+    
 
   ngOnInit() {
     this.goToViewCap();
@@ -39,6 +42,14 @@ export class ViewCapituloComponent implements OnInit {
   decir(texto){
     console.log(texto);
     speechSynthesis.speak(new SpeechSynthesisUtterance(texto));
+  }
+
+  nextCap(){
+    
+  }
+
+  backCap(){
+
   }
 
 }

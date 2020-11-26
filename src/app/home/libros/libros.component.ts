@@ -14,7 +14,7 @@ export class LibrosComponent implements OnInit {
   @Input() idAuthor;
   public listBooks = [];
   constructor(private bookService: BookServiceService, private route: ActivatedRoute,
-  private  authorservices: AuthorServiceService, private router: Router,) { }
+  private router: Router) { }
 
   public libro: any;
 
@@ -50,7 +50,11 @@ export class LibrosComponent implements OnInit {
     console.log(book);
     let selectedId = parseInt(book.idBook)
     this.router.navigate(["/capitulos",selectedId]);
-  
    }
+
+   selectItemQuestion(item){
+    console.log(item)
+    this.router.navigate(['pregunta',item.idBook]);
+  }
 
 }
