@@ -6,9 +6,13 @@
           <ion-card-title>{{author.nameAuthor}}</ion-card-title>
         </ion-card-header>
       </span>
-    </ion-card> <br>
-    <a href="home">
-      <img id="imagen2" src="assets/iconos/v2/atras.png">
-      <br><br><br><br><br><br>
-  </a>
+    </ion-card>
+    <br><br><br><br>
+
+    <ion-fab horizontal="start" id="back" vertical="bottom" slot="fixed">
+      <ion-fab-button href="home" type="button" color="tertiary">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
 </ion-content>

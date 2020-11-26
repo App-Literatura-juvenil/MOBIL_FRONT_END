@@ -1,14 +1,18 @@
 <ion-content fullscreen>
-        <ion-card *ngFor="let book of listBooks">
-            <span (click)="selectItem(book)">
-                <img src="assets/iconos/v2/libro.png">
-                <ion-card-header>
-                    <ion-card-title>{{book.nameBook}}</ion-card-title>
-                </ion-card-header>
-            </span>
-        </ion-card>
-        <a href="autorLista">
-              <img id="imagen2" src="assets/iconos/v2/atras.png">
-              <br><br><br>
-          </a>
+    <ion-card *ngFor="let book of listBooks">
+        <span (click)="selectItem(book)">
+            <img src="assets/iconos/v2/libro.png">
+            <ion-card-header>
+                <ion-card-title>{{book.nameBook}}</ion-card-title>
+            </ion-card-header>
+        </span>
+    </ion-card>
+    <br><br><br><br>
+
+    <ion-fab horizontal="start" id="back" vertical="bottom" slot="fixed">
+        <ion-fab-button href="home" type="button" color="tertiary">
+            <ion-icon name="arrow-back"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+
 </ion-content>

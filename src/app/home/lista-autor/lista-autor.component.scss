@@ -1,6 +1,6 @@
 ion-content{
     text-align: center;
-    top: 8%;
+    top: 6%;
     margin-top: 6%;
 }
 
@@ -20,6 +20,7 @@ ion-card-header{
 }
 
 ion-card{
+    cursor: pointer;
     border-radius: 6%;
     background-color: #585FA6;
     margin: 3%;
@@ -33,10 +34,6 @@ img{
     height: 300px;
 }
 
-#imagen2
-{
-    width: 100px;
-    height: 100px;
-    
+#back{
+    margin-bottom: 45px;
 }
-

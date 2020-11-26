@@ -11,7 +11,7 @@ import { OrientacionComponent } from './orientacion/orientacion.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { ViewCapituloComponent } from './view-capitulo/view-capitulo.component';
 import { QuizComponent } from './quiz/quiz.component';
-import {PreguntasComponent} from './quiz/preguntas/preguntas/preguntas.component';
+import { PreguntasComponent } from './quiz/preguntas/preguntas/preguntas.component';
 import { CalificacionComponent } from './quiz/calificacion/calificacion.component';
 
 

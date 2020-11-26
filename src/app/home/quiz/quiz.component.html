@@ -1,4 +1,5 @@
 <ion-content fullscreen>
+
   <ion-card *ngFor="let book of listBooks">
     <span (click)="selectItem(book)">  
       <img src="assets/iconos/v2/libro.png" />
@@ -9,6 +10,12 @@
       </ion-card-header>
     </span>
   </ion-card>
-</ion-content>
+  <br><br><br><br>
 
-<a href="home" text-align="center"><ion-button> Menu Principal</ion-button></a>
+  <ion-fab horizontal="start" id="back" vertical="bottom" slot="fixed">
+    <ion-fab-button href="home" type="button" color="tertiary">
+      <ion-icon name="arrow-back"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+</ion-content>

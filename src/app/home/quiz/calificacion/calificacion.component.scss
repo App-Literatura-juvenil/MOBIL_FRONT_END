@@ -1,10 +1,15 @@
 ion-content{
-    top: 3%;
+    top: 5%;
+    margin-top: 7%;
+}
+
+:host{
+    --ion-background-color: #ECF3FF;
 }
 
 ion-card{
-    top: 65px;
-    background-color: aqua;
+    border-radius: 6%;
+    background-color: #585FA6;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 2%;
@@ -18,13 +23,23 @@ img{
     height: 300px;
 }
 
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(182, 12, 12);
+}
+
 h3{
-    text-align: left;
-    size: 10%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ECF3FF;
 }
 
 h4{
-    
-    text-decoration-color: red;
-    color: rgb(182, 12, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ECF3FF;
 }

@@ -1,6 +1,6 @@
 ion-content{
-    top: 10%;
-    margin-top: 7%;
+    top: 6%;
+    margin-top: 6%;
     text-align: center;
 }
 
@@ -28,16 +28,12 @@ ion-card{
     cursor: pointer;
     border-radius: 6%;
     background-color: #84A2CF;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 2%;
+    margin: 3%;
     max-width: 300px;
     max-height: auto;
     display: inline-flex;
 }
 
-#imagen2
-{
-    width: 100px;
-    height: 100px;
+#back{
+    margin-bottom: 45px;
 }

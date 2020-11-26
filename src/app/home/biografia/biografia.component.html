@@ -1,7 +1,16 @@
 <ion-content fullscreen *ngIf="biografia">
-  <center><img src="assets/iconos/v2/autores.png"></center>
+
+  <img src="assets/iconos/v2/autores.png">
   <br><br><br>
   <h1>{{biografia.author.nameAuthor}}</h1>
   <br><br>
-      <div [innerHtml]="biografia.author.biography"></div>
+  <div [innerHtml]="biografia.author.biography"></div>
+  <br><br><br><br>
+
+  <ion-fab horizontal="start" id="back" vertical="bottom" slot="fixed">
+    <ion-fab-button href="autores" type="button" color="tertiary">
+      <ion-icon name="arrow-back"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
 </ion-content>

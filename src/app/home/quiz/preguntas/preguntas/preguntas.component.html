@@ -23,18 +23,19 @@
         </ion-radio-group>
       </div>
     </ion-card>
-    <ion-button (click)="presentActionSheet()"> Terminar Evaluacion</ion-button>
   </div>
 
-  
+  <br><br>
+  <ion-button (click)="presentActionSheet()"> Terminar Evaluacion</ion-button>
   <div *ngIf="calificar">
     <app-calificacion [conteoHijo]="conteo2" [idBook]="idBook"></app-calificacion>
   </div>
   <div *ngIf="quiz">
-    <app-quiz></app-quiz>
+    <META HTTP-EQUIV="REFRESH" CONTENT="0;URL=../quiz">
   </div>
   <div *ngIf="home">
-    <app-home></app-home>
+    <META HTTP-EQUIV="REFRESH" CONTENT="0;URL=../../home">
   </div>
+  <br><br><br><br><br><br>
 
 </ion-content>
